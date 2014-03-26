@@ -1,0 +1,279 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-01-15T15:02:08</date>
+  <millis>1389769328932</millis>
+  <sequence>0</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 1: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:09</date>
+  <millis>1389769329027</millis>
+  <sequence>1</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 2: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:09</date>
+  <millis>1389769329034</millis>
+  <sequence>2</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 3: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332127</millis>
+  <sequence>3</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 4: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332138</millis>
+  <sequence>4</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 5: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332139</millis>
+  <sequence>5</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 6: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332321</millis>
+  <sequence>6</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 7: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332333</millis>
+  <sequence>7</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 8: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332334</millis>
+  <sequence>8</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 9: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332339</millis>
+  <sequence>9</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 10: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332341</millis>
+  <sequence>10</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 11: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332346</millis>
+  <sequence>11</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 12: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332347</millis>
+  <sequence>12</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 13: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332360</millis>
+  <sequence>13</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 14: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332361</millis>
+  <sequence>14</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 15: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332379</millis>
+  <sequence>15</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 16: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332381</millis>
+  <sequence>16</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 17: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332390</millis>
+  <sequence>17</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 18: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:12</date>
+  <millis>1389769332392</millis>
+  <sequence>18</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 19: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:14</date>
+  <millis>1389769334406</millis>
+  <sequence>19</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 1: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:14</date>
+  <millis>1389769334423</millis>
+  <sequence>20</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 20: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:14</date>
+  <millis>1389769334426</millis>
+  <sequence>21</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 21: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:26</date>
+  <millis>1389769346306</millis>
+  <sequence>22</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>run</method>
+  <thread>29</thread>
+  <message>NetworkManager 20: ccnd down and exit on network error requested - exiting</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:26</date>
+  <millis>1389769346308</millis>
+  <sequence>23</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>run</method>
+  <thread>27</thread>
+  <message>NetworkManager 21: ccnd down and exit on network error requested - exiting</message>
+</record>
+<record>
+  <date>2014-01-15T15:02:26</date>
+  <millis>1389769346308</millis>
+  <sequence>24</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>run</method>
+  <thread>17</thread>
+  <message>NetworkManager 7: ccnd down and exit on network error requested - exiting</message>
+</record>
+</log>

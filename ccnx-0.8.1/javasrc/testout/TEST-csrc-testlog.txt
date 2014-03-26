@@ -1,0 +1,1206 @@
+test -d include/ccn || (test -d ../include/ccn && mkdir -p include && ln -s ../../include/ccn include/ccn)
+for i in lib ccnd sync ccnr libexec cmd util tests exttests; do         \
+	  (cd "$i" && pwd && :>> depend.mk && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i default) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc/lib
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+/home/ice/ccnx-0.8.1/csrc/ccnd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+/home/ice/ccnx-0.8.1/csrc/sync
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+/home/ice/ccnx-0.8.1/csrc/ccnr
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+/home/ice/ccnx-0.8.1/csrc/libexec
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+/home/ice/ccnx-0.8.1/csrc/cmd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+/home/ice/ccnx-0.8.1/csrc/util
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/util'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/util'
+/home/ice/ccnx-0.8.1/csrc/tests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+/home/ice/ccnx-0.8.1/csrc/exttests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+make[1]: 没有什么可以做的为 `default'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+test -d include/ccn || (test -d ../include/ccn && mkdir -p include && ln -s ../../include/ccn include/ccn)
+for i in lib ccnd sync ccnr libexec cmd util tests exttests; do         \
+	  (cd "$i" && pwd && :>> depend.mk && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i test) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc/lib
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+./encodedecodetest -o /dev/null
+Initializing keystore in test.keystore
+Initializing AES keystore in test.aeskeystore
+Creating signed_info
+Done with signed_info
+Encoding sample message data length 902
+Encoded sample message length is 1210
+Expect signature verification failure: Decode mismatch of content
+Signature did not verify
+Done with sample message
+Encoding sample message data length 902
+Encoded sample message length is 1122
+Expect signature verification failure: Decode mismatch of content
+Signature did not verify
+Done with sample message
+Unit test case 0
+Unit test case 1
+Unit test case 2
+Unit test case 3
+Unit test case 4
+Unit test case 5
+Unit test case 6
+Unit test case 7
+Unit test case 8
+Unit test case 9
+Unit test case 10
+Unit test case 11
+Unit test case 12
+Unit test case 13
+Unit test case 14
+Name marker tests
+Unit test case 15
+Unit test case 16
+Empty component encoding test
+Timestamp tests
+Unit test case 4
+Message digest tests
+Unit test case 5
+Unit test case 6
+Unit test case 7
+Unit test case 8
+Really basic PRNG test
+Unit test case 9
+Bloom filter tests
+Unit test case 10
+Unit test case 11
+Unit test case 12
+Unit test case 13 (aqfb)    either=918 both=3 wiresize=24
+Unit test case 14 (aqfc)    either=1129 both=7 wiresize=24
+Unit test case 15 (aqfd)    either=1182 both=2 wiresize=24
+Unit test case 16 (aqfe)    either=1003 both=5 wiresize=24
+Unit test case 17 (aqff)    either=1076 both=2 wiresize=24
+ccn_sign_content() tests
+Unit test case 18
+Unit test case 19
+Unit test case 20
+Unit test case 21
+Unit test case 22
+Unit test case 23
+Unit test case 24
+link tests
+link tests
+Unit test case 25
+./ccnbtreetest
+%I start ccn_btree_check 3 0 0 0
+	(d) [2 0] 0 leaf
+	(goodstuff) [2 1] 0 leaf
+	(odd) [2 2] 0 leaf
+(ru) [1 1] 1 node
+	(rut) [3 0] 0 leaf
+	(strut) [3 1] 0 leaf
+	(truth) [3 2] 0 leaf
+test_insert_content() => 1
+Created directory ./_bt_UHxcXI/_test
+ccn_btree_entry_trailer size is 16 bytes
+ccn_btree_internal_entry size is 24 bytes
+ccn_btree_content_entry size is 80 bytes
+line 309 code = 256
+search  => 0, expected 0
+search c => 0, expected 0
+search d => 1, expected 1
+search d1 => 2, expected 2
+search goodstuff => 3, expected 3
+search goodstuff1 => 4, expected 4
+search odc++++++ => 4, expected 4
+search odd => 5, expected 5
+search odd1 => 6, expected 6
+search ode => 6, expected 6
+lookup d => 2, 1, expected 2, 1
+lookup goodstuff => 2, 3, expected 2, 3
+lookup odd => 2, 5, expected 2, 5
+lookup truth => 3, 5, expected 3, 5
+lookup tooth => 3, 4, expected 3, 4
+flatname 0: ccnx:/
+flatname 1: ccnx:/...
+flatname 2: ccnx:/A
+flatname 3: ccnx:/%C1.x~=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+flatname 4: ccnx:/9%20etc=000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000000
+palindrome: /.../1/2/3/4/5/6/7/8/9/10/9/8/7/6/5/4/3/2/1/...
+./ccnbtreetest - < q.dat
+%I start ccn_btree_check 18 0 0 0
+42 unique, 1 duplicate, 42 deleted, 2 missing, 0 errors
+Leaf nodes: 1
+Reversed leaf nodes: 1
+./nametreetest - < q.dat
+42 unique, 1 duplicate, 42 deleted, 2 missing
+Nametree nodes:
+Reversed nodes:
+rm -f -R _bt_*
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+/home/ice/ccnx-0.8.1/csrc/ccnd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+./testbasics
+Starting ccnd with CCN_LOCAL_PORT=63000
+Making sure new ccnd is there
+Populating ccnd with pre-signed data
+send fortunes.ccnb (2349 bytes)
+recv timed out after 10 ms
+Making anything.ccnb
+<!-- Processing - -->
+Trying for anything a few times
+Testing contentobjecthash
+<!-- Processing - -->
+Testing that fetch with bad hash does not succeed
+<!-- Processing - -->
+recv timed out after 200 ms
+Testing MinSuffixComponents
+<!-- Processing - -->
+./testbasics TESTS PASSED
+: ---------------------- :
+:  ccnd unit tests pass  :
+: ---------------------- :
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+/home/ice/ccnx-0.8.1/csrc/sync
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+No sync_exp tests hooked up yet.
+: -------------------------- :
+:  sync_exp unit tests pass  :
+: -------------------------- :
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+/home/ice/ccnx-0.8.1/csrc/ccnr
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+: ---------------------- :
+:  ccnr unit tests pass  :
+: ---------------------- :
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+/home/ice/ccnx-0.8.1/csrc/libexec
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+Sorry, no libexec unit tests at this time
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+/home/ice/ccnx-0.8.1/csrc/cmd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+make[1]: 没有什么可以做的为 `test'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+/home/ice/ccnx-0.8.1/csrc/util
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/util'
+Sorry, no util unit tests at this time
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/util'
+/home/ice/ccnx-0.8.1/csrc/tests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+mkdir -p log
+./testdriver 
+=== test_answered_interest_suppression
+<!-- Processing - -->
+recv timed out after 100 ms
+send answered.ccnb (46 bytes)
+recv timed out after 100 ms
+recv timed out after 100 ms
+send answered.ccnb (46 bytes)
+ice-Founder-PC ccnd[3766] local port 63005 api 8002 start 1389769125.064549 now 1389769127.067985
+Content items: 2 accessioned, 2 stored, 0 stale, 0 sparse, 0 duplicate, 2 sent
+Interests: 16 names, 3 pending, 1 propagating, 5 noted
+Interest totals: 5 accepted, 0 dropped, 3 sent, 0 stuffed
+Faces
+ face: 0 flags: 0xc pending: 0
+ face: 1 flags: 0x400c pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63005
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63005
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63005
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63005
+ face: 6 flags: 0xc pending: 1 activity: 1
+ face: 7 flags: 0xc pending: 1 activity: 1
+ face: 8 flags: 0xc pending: 1 activity: 1
+ face: 9 flags: 0xc pending: 0 activity: 2
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	   520 / 196		        0 / 0		        0 / 0
+ face: 6	    17 / 0		        0 / 0		        0 / 0
+ face: 7	    17 / 0		        0 / 0		        0 / 0
+ face: 8	    17 / 0		        0 / 0		        0 / 0
+ face: 9	   185 / 544		        0 / 0		        0 / 0
+Forwarding
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483647
+ ccnx:/answered face: 9 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ccnx/%1DRE%04qz=1ECCE1A58A83CB5E57078A364D6917FCE7210034863C409D0F86 face: 0 flags: 0x17 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483647
+
+recv of 431 bytes
+recv of 431 bytes
+recv of 431 bytes
+0
+=== test_coders
+<!-- Processing - -->
+face_instance OK
+<!-- Processing - -->
+forwarding_entry OK
+<!-- Processing - -->
+header OK
+0
+=== test_key_fetch
+<!-- Processing - -->
+<!-- Processing - -->
+<!-- Processing - -->
+recv timed out after 100 ms
+Sending keyfetchsetup.ccnb
+Here
+Sending keyfetchdata.ccnb
+Sending keyfetchpkey.ccnb
+=FD04A085F0554C [unverified]
+=FD04A085F0554C [verified]
+Upcall final
+0
+=== test_single_ccnd
+0
+=== test_symmetric
+Could not connect to ccnd: No such file or directory
+Could not connect to ccnd: No such file or directory
+=FD052D631AA6B7 [unverified]
+0
+=== test_short_stuff
+jot is /usr/bin/jot
+0
+=== test_scope0
+recv timed out after 500 ms
+one
+two
+three
+recv timed out after 500 ms
+0
+=== test_newface
+rm: 无法删除"newface*.ccnb": 没有那个文件或目录
+<!-- Processing - -->
+ <!-- input is    575 bytes -->
+476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA
+<!-- Processing - -->
+NFBLOB is BIICqgOyCIUhY96FB59rYWbam6AkMuffbV0NRzv5jB/C+lq3r/JFMFHWkcpOd2mV lJhMHDa0gKTtTcJZ3BPXDiakBVk8Sxv0FGsu8PtVu/43ejXsgcvt3mmHDRACzykq F8rBvtxa6nWYxosZAN2Yymw24rVBIcc0Dy6+TVxo7RfLbiMocFBQdgAA8voBvV90 aGlzX25hbWVfaWdub3JlZF8zNDY3AAABogPiAoUevP2yuc96obQTB7PRDlwOgnjd 7I4+VJBiTtgBQ5ENMgACurUFLWMaygQAA9KWMzAAAeIB2gqVMIGfMA0GCSqGSIb3 DQEBAQUAA4GNADCBiQKBgQDViKszkGbGz1pqZQzMe4rmrvEgD/xDdUrOXDwsnmrT By2ZP5wYCqHx3NWZgROlH4URMVB7yGJt0jwGRBHmZ3izz6+/Yy5cnypZs6QeYLR8 srtGqWSMzAVvB7CkrdGfgvepNIKocBwPumGlcVxR3Qma8hcvyOzQsadM2aFBLUd2 OQIDAQABAAAAAZoFxQWCBMq+bmV3ZmFjZQAD4gKFR23enDvCxYWW4RVcdKa1z/dh sRpz+fv7F/8bS+LHHeoABNqWMTcABOLeMTAuMjExLjU1LjgABOqmOTY5NQAD0qYz NjAwAAAAAA==
+<!-- Processing newface-request.xml -->
+ newface-request.ccnb written.
+send newface-request.ccnb (554 bytes)
+recv of 1005 bytes
+<!-- Processing newface-response.ccnb -->
+ <!-- input is   1005 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentObject><Signature><SignatureBits ccnbencoding="base64Binary">g1+Z8nC20YVcnCqU5FpWjh9jg0hk0RoUId2CF4j4PXJKlTZy7zbvlRP+vcUqUTnX
+TP/8he0GOFvarKB84JmYIL63GYrTwzeaCY5Lwj6BhB9J2ckbOqWOnLwF+pS6JQQG
+i1ErZDb+wQDAOGaHb39qhwpt3vc1N51hU9gK5Xt3TVM=</SignatureBits></Signature><Name><Component ccnbencoding="text">ccnx</Component><Component ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</Component><Component ccnbencoding="text">newface</Component><Component ccnbencoding="base64Binary">BIICqgOyCIUhY96FB59rYWbam6AkMuffbV0NRzv5jB/C+lq3r/JFMFHWkcpOd2mV
+lJhMHDa0gKTtTcJZ3BPXDiakBVk8Sxv0FGsu8PtVu/43ejXsgcvt3mmHDRACzykq
+F8rBvtxa6nWYxosZAN2Yymw24rVBIcc0Dy6+TVxo7RfLbiMocFBQdgAA8voBvV90
+aGlzX25hbWVfaWdub3JlZF8zNDY3AAABogPiAoUevP2yuc96obQTB7PRDlwOgnjd
+7I4+VJBiTtgBQ5ENMgACurUFLWMaygQAA9KWMzAAAeIB2gqVMIGfMA0GCSqGSIb3
+DQEBAQUAA4GNADCBiQKBgQDViKszkGbGz1pqZQzMe4rmrvEgD/xDdUrOXDwsnmrT
+By2ZP5wYCqHx3NWZgROlH4URMVB7yGJt0jwGRBHmZ3izz6+/Yy5cnypZs6QeYLR8
+srtGqWSMzAVvB7CkrdGfgvepNIKocBwPumGlcVxR3Qma8hcvyOzQsadM2aFBLUd2
+OQIDAQABAAAAAZoFxQWCBMq+bmV3ZmFjZQAD4gKFR23enDvCxYWW4RVcdKa1z/dh
+sRpz+fv7F/8bS+LHHeoABNqWMTcABOLeMTAuMjExLjU1LjgABOqmOTY5NQAD0qYz
+NjAwAAAAAA==</Component></Name><SignedInfo><PublisherPublicKeyDigest ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</PublisherPublicKeyDigest><Timestamp ccnbencoding="base64Binary">BS1jGso4</Timestamp><FreshnessSeconds>10</FreshnessSeconds><KeyLocator><Key ccnbencoding="base64Binary">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCouAAiT1Ud4M6ofpJ2m/qwneMi
+Hos165FaT2DD4Na9PaIa+QxCSKrTyI6heKvZ1awY/eMjXOZusVL6GwcHaCFzVqJ4
+FUQTH3wtUTNqZbGe9udJ9jNFh16DiIUpt4DAZNlnpvRKiJCHG47hytwMQM8cp0zI
+345JbLAyvVCbmYGxXwIDAQAB</Key></KeyLocator></SignedInfo><Content ccnbencoding="base64Binary">BYID4gKFR23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAABNqW
+MTcABOLeMTAuMjExLjU1LjgABOqmOTY5NQAD0tYyMTQ3NDgzNjQ3AAA=</Content></ContentObject>
+0
+=== test_new_provider
+recv timed out after 133 ms
+recv timed out after 133 ms
+wrote ccnx:/test/test_new_provider/e05HVabwfK67vNXH
+0
+=== test_long_producer
+jot is /usr/bin/jot
+Long producer started
+0
+=== test_local_tcp
+1ebcfd Hello 1ebcfd 42
+0
+=== test_interest_suppression
+<!-- Processing - -->
+记录了1+0 的读入
+记录了1+0 的写出
+1字节(1 B)已复制，2.6469e-05 秒，37.8 kB/秒
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send heartbeat.ccnb (1 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+send unanswered.ccnb (48 bytes)
+recv timed out after 1 ms
+COUNT=1
+0
+=== test_happy_face
+:-)
+0
+=== test_extopt
+记录了1+0 的读入
+记录了1+0 的写出
+1字节(1 B)已复制，3.2476e-05 秒，30.8 kB/秒
+记录了10+0 的读入
+记录了10+0 的写出
+100字节(100 B)已复制，6.3485e-05 秒，1.6 MB/秒
+== ccnx:/test/extopt/=FD052D631B49B7
+123
+2, 2, 2, 2, 129, 1, 1, 1, 1, 5, 1, 1, 7, 1, 1, 8, 1, 1, 2, 1, 2, 2, 2, 33, 2, 1, 7, 2, 1, 2, 2, 1, 2, 2, 2, 2, 163, 1, 2, (ExtOpt starts at 399, level is 3) 2, 102, complete element after 505 chars from extopt-co.out
+0
+=== test_child_selector
+<!-- Processing - -->
+send child_selector.ccnb (34 bytes)
+recv of 419 bytes
+0
+=== test_ccnls_meta
+./testdriver: content object digest is =3B3EDD29D0C131C86E261118F28B00B20E1E03926E2D8E4B6118970141B1DE46
+. [verified]
+. [verified]
+%84x=0BAAFAFB71599F3CA68383850FCC931BFA05E1016B020848888B5612ACA4 [verified]
+. [verified]
+0
+=== test_ccndid
+<!-- Processing - -->
+ <!-- input is    575 bytes -->
+476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA
+0
+=== test_long_consumer
+jot is /usr/bin/jot
+1389769144.207934 ccncatchunks2[4156]: 583 isent, 576 recvd, 0 junk, 0 holes, 0 t/o, 0 unvrf, 8 curwin, 3638 rtt, 4376 rtte
+1389769144.207988 ccncatchunks2[4156]: 588895 bytes transferred in 0.269944 seconds (2181545 bytes/sec)
+记录了575+1 的读入
+记录了575+1 的写出
+588895字节(589 kB)已复制，0.269125 秒，2.2 MB/秒
+0
+=== test_selfreg
+<!-- Processing - -->
+SRBLOB is BIICqgOyCIXTKTcCIKzqv+omvr48sEPhjtoldrQPZDY4Ebj3D9W5EaxqZZ1cbgBz SGylV8eAu7XlxQ8a2tsBTiacqft8xbbLEyxu0US0m/6Onbm+YquOtYc3B9gWm8OU RQVdCsAgUWRZnG36lD+sRJA8lvrDUGgJMR55ioAvDw78iEQ4eW73/wAA8voBlVNS ekVsdml1M25YY1d6ME8xeAAAAaID4gKFHrz9srnPeqG0Ewez0Q5cDoJ43eyOPlSQ Yk7YAUORDTIAArq1BS1jG4OLAAPSljMwAAHiAdoKlTCBnzANBgkqhkiG9w0BAQEF AAOBjQAwgYkCgYEA1YirM5Bmxs9aamUMzHuK5q7xIA/8Q3VKzlw8LJ5q0wctmT+c GAqh8dzVmYETpR+FETFQe8hibdI8BkQR5md4s8+vv2MuXJ8qWbOkHmC0fLK7Rqlk jMwFbwewpK3Rn4L3qTSCqHAcD7phpXFcUd0JmvIXL8js0LGnTNmhQS1HdjkCAwEA AQAAAAGaA40FigTKvnNlbGZyZWcA8vqlSnVuawD6vVRlc3RpbmcA+r1TZWxmcmVn AAAD0pYxOQAAAAA=
+<!-- Processing selfreg-request.xml -->
+ selfreg-request.ccnb written.
+send - (7 bytes)
+recv of 100 bytes
+recv of 2989 bytes
+记录了1+0 的读入
+记录了1+0 的写出
+1字节(1 B)已复制，2.6121e-05 秒，38.3 kB/秒
+send heartbeat.ccnb (1 bytes)
+send selfreg-request.ccnb (510 bytes)
+recv of 958 bytes
+<!-- Processing selfreg-response.ccnb -->
+ <!-- input is    958 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentObject><Signature><SignatureBits ccnbencoding="base64Binary">I8sGlLR6Y+p/FvWPq4AIDMoSxKMkrY4Zz8BWaFFe0OHUsrPXZBmDKzWKi1HMJi+h
+ZCLUpk0KyiLcNerNmQ52Vgnh4iC1xmvW035vV1E+0vbyyQXkuGyMj0L3e7SAh3uC
+b3DO6lwnVgxnZQLOKIA/9Ybni65SI2BHYleZqOPk9Gs=</SignatureBits></Signature><Name><Component ccnbencoding="text">ccnx</Component><Component ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</Component><Component ccnbencoding="text">selfreg</Component><Component ccnbencoding="base64Binary">BIICqgOyCIXTKTcCIKzqv+omvr48sEPhjtoldrQPZDY4Ebj3D9W5EaxqZZ1cbgBz
+SGylV8eAu7XlxQ8a2tsBTiacqft8xbbLEyxu0US0m/6Onbm+YquOtYc3B9gWm8OU
+RQVdCsAgUWRZnG36lD+sRJA8lvrDUGgJMR55ioAvDw78iEQ4eW73/wAA8voBlVNS
+ekVsdml1M25YY1d6ME8xeAAAAaID4gKFHrz9srnPeqG0Ewez0Q5cDoJ43eyOPlSQ
+Yk7YAUORDTIAArq1BS1jG4OLAAPSljMwAAHiAdoKlTCBnzANBgkqhkiG9w0BAQEF
+AAOBjQAwgYkCgYEA1YirM5Bmxs9aamUMzHuK5q7xIA/8Q3VKzlw8LJ5q0wctmT+c
+GAqh8dzVmYETpR+FETFQe8hibdI8BkQR5md4s8+vv2MuXJ8qWbOkHmC0fLK7Rqlk
+jMwFbwewpK3Rn4L3qTSCqHAcD7phpXFcUd0JmvIXL8js0LGnTNmhQS1HdjkCAwEA
+AQAAAAGaA40FigTKvnNlbGZyZWcA8vqlSnVuawD6vVRlc3RpbmcA+r1TZWxmcmVn
+AAAD0pYxOQAAAAA=</Component></Name><SignedInfo><PublisherPublicKeyDigest ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</PublisherPublicKeyDigest><Timestamp ccnbencoding="base64Binary">BS1jG4PC</Timestamp><FreshnessSeconds>10</FreshnessSeconds><KeyLocator><Key ccnbencoding="base64Binary">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCouAAiT1Ud4M6ofpJ2m/qwneMi
+Hos165FaT2DD4Na9PaIa+QxCSKrTyI6heKvZ1awY/eMjXOZusVL6GwcHaCFzVqJ4
+FUQTH3wtUTNqZbGe9udJ9jNFh16DiIUpt4DAZNlnpvRKiJCHG47hytwMQM8cp0zI
+345JbLAyvVCbmYGxXwIDAQAB</Key></KeyLocator></SignedInfo><Content ccnbencoding="base64Binary">BYry+qVKdW5rAPq9VGVzdGluZwD6vVNlbGZyZWcAAAPiAoVHbd6cO8LFhZbhFVx0
+prXP92GxGnP5+/sX/xtL4scd6gAE0pY2NAAE+o4zAAPSljE5AAA=</Content></ContentObject>
+<!-- Processing - -->
+ <!-- input is     86 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ForwardingEntry><Name><Component ccnbencoding="text">Junk</Component><Component ccnbencoding="text">Testing</Component><Component ccnbencoding="text">Selfreg</Component></Name><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><FaceID>64</FaceID><ForwardingFlags>3</ForwardingFlags><FreshnessSeconds>19</FreshnessSeconds></ForwardingEntry>
+send - (7 bytes)
+recv of 100 bytes
+recv of 3314 bytes
+0
+=== test_prefixreg
+FACEID=20
+<!-- Processing - -->
+PRBLOB is BIICqgOyCIVWmvLcp6DOP2GrTUJZ6aA8PEjWTqsS0QcjL6/fWmHoC1OJNRSp5B7x chtD+6f8bfso7arPk3IxQCOG3KbpQ0BetqYAVP6w4HOzkodpgZyGoJ13MrJx5Dop IDYNgm4mDyhM/u7ZZqw2iLCgXcJqknx071rN/PapTLFHEqI4ZeBnvAAA8voBzV9p Z25vcmVkX1BFQUZySGc5SXNka0lYZTEAAAGiA+IChR68/bK5z3qhtBMHs9EOXA6C eN3sjj5UkGJO2AFDkQ0yAAK6tQUtYxuEIAAD0pYzMAAB4gHaCpUwgZ8wDQYJKoZI hvcNAQEBBQADgY0AMIGJAoGBANWIqzOQZsbPWmplDMx7iuau8SAP/EN1Ss5cPCye atMHLZk/nBgKofHc1ZmBE6UfhRExUHvIYm3SPAZEEeZneLPPr79jLlyfKlmzpB5g tHyyu0apZIzMBW8HsKSt0Z+C96k0gqhwHA+6YaVxXFHdCZryFy/I7NCxp0zZoUEt R3Y5AgMBAAEAAAABmgLtBYoEys5wcmVmaXhyZWcA8vqlSnVuawAABNKWMjAAA9LW MjE0NzQ4MzY0NwAAAAA=
+<!-- Processing prefixreg-request.xml -->
+ prefixreg-request.ccnb written.
+send - (7 bytes)
+recv of 100 bytes
+recv of 3314 bytes
+send prefixreg-request.ccnb (515 bytes)
+recv of 955 bytes
+<!-- Processing prefixreg-response.ccnb -->
+ <!-- input is    955 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentObject><Signature><SignatureBits ccnbencoding="hexBinary">86B86A14131EA97C3BAC987B69C2E5040F098B7F6E7F9DDEC1622FCC046ACEB74701DD1511AB63ECA8507664F945C69835C7C9286FBDCC26CE3348CEF9FCC57078268FF0E73DE24768FA2BA141BBF136B981F4A1FFB2E9EF458D10F379C573210F83752385171F7708FA00AADFF9359EA43408AC9BAE68AE52287FD41FEC4504</SignatureBits></Signature><Name><Component ccnbencoding="text">ccnx</Component><Component ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</Component><!--       Gm%DE%9C%3B%C2%C5%85%96%E1%15%5Ct%A6%B5%CF%F7a%B1%1As%F9%FB%FB%17%FF%1BK%E2%C7%1D%EA --><Component ccnbencoding="text">prefixreg</Component><Component ccnbencoding="hexBinary">048202AA03B20885569AF2DCA7A0CE3F61AB4D4259E9A03C3C48D64EAB12D107232FAFDF5A61E80B53893514A9E41EF1721B43FBA7FC6DFB28EDAACF937231402386DCA6E943405EB6A60054FEB0E073B3928769819C86A09D7732B271E43A2920360D826E260F284CFEEED966AC3688B0A05DC26A927C74EF5ACDFCF6A94CB14712A23865E067BC0000F2FA01CD5F69676E6F7265645F50454146724867394973646B49586531000001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631B84200003D29633300001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A02ED058A04CACE70726566697872656700F2FAA54A756E6B000004D29632300003D2D63231343734383336343700000000</Component><!--       %04%82%02%AA%03%B2%08%85V%9A%F2%DC%A7%A0%CE%3Fa%ABMBY%E9%A0%3C%3CH%D6N%AB%12%D1%07%23%2F%AF%DFZa%E8%0BS%895%14%A9%E4%1E%F1r%1BC%FB%A7%FCm%FB%28%ED%AA%CF%93r1%40%23%86%DC%A6%E9C%40%5E%B6%A6%00T%FE%B0%E0s%B3%92%87i%81%9C%86%A0%9Dw2%B2q%E4%3A%29%206%0D%82n%26%0F%28L%FE%EE%D9f%AC6%88%B0%A0%5D%C2j%92%7Ct%EFZ%CD%FC%F6%A9L%B1G%12%A28e%E0g%BC%00%00%F2%FA%01%CD_ignored_PEAFrHg9IsdkIXe1%00%00%01%A2%03%E2%02%85%1E%BC%FD%B2%B9%CFz%A1%B4%13%07%B3%D1%0E%5C%0E%82x%DD%EC%8E%3ET%90bN%D8%01C%91%0D2%00%02%BA%B5%05-c%1B%84%20%00%03%D2%9630%00%01%E2%01%DA%0A%950%81%9F0%0D%06%09%2A%86H%86%F7%0D%01%01%01%05%00%03%81%8D%000%81%89%02%81%81%00%D5%88%AB3%90f%C6%CFZje%0C%CC%7B%8A%E6%AE%F1%20%0F%FCCuJ%CE%5C%3C%2C%9Ej%D3%07-%99%3F%9C%18%0A%A1%F1%DC%D5%99%81%13%A5%1F%85%111P%7B%C8bm%D2%3C%06D%11%E6gx%B3%CF%AF%BFc.%5C%9F%2AY%B3%A4%1E%60%B4%7C%B2%BBF%A9d%8C%CC%05o%07%B0%A4%AD%D1%9F%82%F7%A94%82%A8p%1C%0F%BAa%A5q%5CQ%DD%09%9A%F2%17%2F%C8%EC%D0%B1%A7L%D9%A1A-Gv9%02%03%01%00%01%00%00%00%01%9A%02%ED%05%8A%04%CA%CEprefixreg%00%F2%FA%A5Junk%00%00%04%D2%9620%00%03%D2%D62147483647%00%00%00%00 --></Name><SignedInfo><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><Timestamp ccnbencoding="hexBinary">052D631B8450</Timestamp><FreshnessSeconds>10</FreshnessSeconds><KeyLocator><Key ccnbencoding="hexBinary">30819F300D06092A864886F70D010101050003818D0030818902818100A8B800224F551DE0CEA87E92769BFAB09DE3221E8B35EB915A4F60C3E0D6BD3DA21AF90C4248AAD3C88EA178ABD9D5AC18FDE3235CE66EB152FA1B070768217356A2781544131F7C2D51336A65B19EF6E749F63345875E83888529B780C064D967A6F44A8890871B8EE1CADC0C40CF1CA74CC8DF8E496CB032BD509B9981B15F0203010001</Key></KeyLocator></SignedInfo><Content ccnbencoding="hexBinary">058AF2FAA54A756E6B000003E20285476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA0004D29632300004FAAE36353533390003D2D6323134373438333634370000</Content></ContentObject>
+<!-- Processing - -->
+ <!-- input is     78 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ForwardingEntry><Name><Component ccnbencoding="text">Junk</Component></Name><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><FaceID>20</FaceID><ForwardingFlags>65539</ForwardingFlags><FreshnessSeconds>2147483647</FreshnessSeconds></ForwardingEntry>
+<ForwardingEntry><Name><Component ccnbencoding="text">Junk</Component></Name><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><FaceID>20</FaceID><ForwardingFlags>65539</ForwardingFlags><FreshnessSeconds>2147483647</FreshnessSeconds></ForwardingEntry>
+send - (7 bytes)
+recv of 100 bytes
+recv of 3396 bytes
+0
+=== test_long_consumer2
+jot is /usr/bin/jot
+1389769144.377527 ccncatchunks2[4219]: 606 isent, 576 recvd, 0 junk, 0 holes, 0 t/o, 0 unvrf, 31 curwin, 2579 rtt, 2633 rtte
+1389769144.377572 ccncatchunks2[4219]: 588895 bytes transferred in 0.040516 seconds (14534875 bytes/sec)
+记录了575+1 的读入
+记录了575+1 的写出
+588895字节(589 kB)已复制，0.0412063 秒，14.3 MB/秒
+0
+=== test_unreg
+FACEID=20
+<!-- Processing - -->
+PRBLOB is BIICqgOyCIVGDfDeGkEjhWRbDHubqYPJ9CJ/HXgRZcxZRYZR9ObC76Hu3LFytnx4 iesSRlTZbH//LrhBkoEJFp/RqrnkZTvX4/+3l4mJILYrv3lJqtmSHgsmwrsIoti3 Gj0+dbEbyLE2hjqJ680oXbSCHjTxJGvmvzA1OH/fan5yDdSG95OkjwAA8voBzV9p Z25vcmVkXzh2NXdsN1FGRnZvRlFEME4AAAGiA+IChR68/bK5z3qhtBMHs9EOXA6C eN3sjj5UkGJO2AFDkQ0yAAK6tQUtYxuGUwAD0pYzMAAB4gHaCpUwgZ8wDQYJKoZI hvcNAQEBBQADgY0AMIGJAoGBANWIqzOQZsbPWmplDMx7iuau8SAP/EN1Ss5cPCye atMHLZk/nBgKofHc1ZmBE6UfhRExUHvIYm3SPAZEEeZneLPPr79jLlyfKlmzpB5g tHyyu0apZIzMBW8HsKSt0Z+C96k0gqhwHA+6YaVxXFHdCZryFy/I7NCxp0zZoUEt R3Y5AgMBAAEAAAABmgSFBYoEyq51bnJlZwDy+qVKdW5rAAAD4gKFR23enDvCxYWW 4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAAAAAA
+<!-- Processing unreg-request.xml -->
+ unreg-request.ccnb written.
+send - (7 bytes)
+recv of 100 bytes
+recv of 3399 bytes
+send unreg-request.ccnb (530 bytes)
+recv of 947 bytes
+<!-- Processing unreg-response.ccnb -->
+ <!-- input is    947 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentObject><Signature><SignatureBits ccnbencoding="base64Binary">TE9gRUNKjsEl6mEfzUwDhlfRDbqZGTKMuZpWauUGHmr/7DpalsnkqgvgPifnI1l8
+eEFe76/hDHHlu/C7ZRMpL0PDc5lg8c60SiYU0NZeiuhDyYB1J/88VucUgqIX/cTt
+v61nc2F4ORPk75mWoEujm1IlssgQnPvY/dYJQxoiYUk=</SignatureBits></Signature><Name><Component ccnbencoding="text">ccnx</Component><Component ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</Component><Component ccnbencoding="text">unreg</Component><Component ccnbencoding="base64Binary">BIICqgOyCIVGDfDeGkEjhWRbDHubqYPJ9CJ/HXgRZcxZRYZR9ObC76Hu3LFytnx4
+iesSRlTZbH//LrhBkoEJFp/RqrnkZTvX4/+3l4mJILYrv3lJqtmSHgsmwrsIoti3
+Gj0+dbEbyLE2hjqJ680oXbSCHjTxJGvmvzA1OH/fan5yDdSG95OkjwAA8voBzV9p
+Z25vcmVkXzh2NXdsN1FGRnZvRlFEME4AAAGiA+IChR68/bK5z3qhtBMHs9EOXA6C
+eN3sjj5UkGJO2AFDkQ0yAAK6tQUtYxuGUwAD0pYzMAAB4gHaCpUwgZ8wDQYJKoZI
+hvcNAQEBBQADgY0AMIGJAoGBANWIqzOQZsbPWmplDMx7iuau8SAP/EN1Ss5cPCye
+atMHLZk/nBgKofHc1ZmBE6UfhRExUHvIYm3SPAZEEeZneLPPr79jLlyfKlmzpB5g
+tHyyu0apZIzMBW8HsKSt0Z+C96k0gqhwHA+6YaVxXFHdCZryFy/I7NCxp0zZoUEt
+R3Y5AgMBAAEAAAABmgSFBYoEyq51bnJlZwDy+qVKdW5rAAAD4gKFR23enDvCxYWW
+4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAAAAAA</Component></Name><SignedInfo><PublisherPublicKeyDigest ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</PublisherPublicKeyDigest><Timestamp ccnbencoding="base64Binary">BS1jG4aQ</Timestamp><FreshnessSeconds>10</FreshnessSeconds><KeyLocator><Key ccnbencoding="base64Binary">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCouAAiT1Ud4M6ofpJ2m/qwneMi
+Hos165FaT2DD4Na9PaIa+QxCSKrTyI6heKvZ1awY/eMjXOZusVL6GwcHaCFzVqJ4
+FUQTH3wtUTNqZbGe9udJ9jNFh16DiIUpt4DAZNlnpvRKiJCHG47hytwMQM8cp0zI
+345JbLAyvVCbmYGxXwIDAQAB</Key></KeyLocator></SignedInfo><Content ccnbencoding="base64Binary">BYry+qVKdW5rAAAD4gKFR23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoA
+BNKWMjAAAA==</Content></ContentObject>
+<!-- Processing - -->
+ <!-- input is     55 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ForwardingEntry><Name><Component ccnbencoding="text">Junk</Component></Name><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><FaceID>20</FaceID></ForwardingEntry>
+send - (7 bytes)
+recv of 100 bytes
+recv of 3318 bytes
+0
+=== test_twohop_ccnd
+send - (7 bytes)
+recv of 100 bytes
+recv of 3486 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 3580 bytes
+send - (7 bytes)
+recv of 2991 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 2891 bytes
+long [verified]
+ccnls [verified]
+happy [verified]
+locotcp [verified]
+child_selector [verified]
+test_new_provider [verified]
+jot is /usr/bin/jot
+1389769146.732013 ccncatchunks2[4280]: 583 isent, 576 recvd, 0 junk, 0 holes, 0 t/o, 0 unvrf, 8 curwin, 622 rtt, 1010 rtte
+1389769146.732057 ccncatchunks2[4280]: 588895 bytes transferred in 0.057291 seconds (10279014 bytes/sec)
+记录了575+1 的读入
+记录了575+1 的写出
+588895字节(589 kB)已复制，0.0577214 秒，10.2 MB/秒
+0
+=== test_destroyface
+FACEID=20
+<!-- Processing - -->
+ <!-- input is    575 bytes -->
+476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA
+<!-- Processing - -->
+REQNAME is 9de1ce24367c918683a8f34239fc920ccd977588
+ccnx:/9de1ce24367c918683a8f34239fc920ccd977588
+DFBLOB is BIICqgOyCIV/8SN0FxPLO2nBenYQI23wWsQe7AX0e82iStC8226XNwYWNas37VJp JSf4YK6yGhVS56TnFaENXID9zeERoQmyu9NZUJAKXj200gE5OI1xMmNgdwS24c4N yo4cF7+rfPUhMqUelRs1SqR7s9A+lOZiO4BgdCmC+xTKXP9WQi9P5gAA8voCxTlk ZTFjZTI0MzY3YzkxODY4M2E4ZjM0MjM5ZmM5MjBjY2Q5Nzc1ODgAAAGiA+IChR68 /bK5z3qhtBMHs9EOXA6CeN3sjj5UkGJO2AFDkQ0yAAK6tQUtYxusDgAD0pYzMAAB 4gHaCpUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANWIqzOQZsbPWmplDMx7 iuau8SAP/EN1Ss5cPCyeatMHLZk/nBgKofHc1ZmBE6UfhRExUHvIYm3SPAZEEeZn eLPPr79jLlyfKlmzpB5gtHyyu0apZIzMBW8HsKSt0Z+C96k0gqhwHA+6YaVxXFHd CZryFy/I7NCxp0zZoUEtR3Y5AgMBAAEAAAABmgPtBYIEyt5kZXN0cm95ZmFjZQAD 4gKFR23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAAAAAA
+<!-- Processing destroyface-request.xml -->
+ destroyface-request.ccnb written.
+send - (7 bytes)
+recv of 100 bytes
+recv of 3609 bytes
+send destroyface-request.ccnb (548 bytes)
+recv of 961 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 3358 bytes
+<!-- Processing destroyface-response.ccnb -->
+ <!-- input is    961 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<ContentObject><Signature><SignatureBits ccnbencoding="base64Binary">PAYfCASmStbo3iHsMOkXE2FMSJ2LCJHMzWpTSeyXB4EKIvXYk4pjV7kEVmvba39y
+qWxd+diJMFPridYLvZRGuJ2gH31BkTgurrs2fF+i55AyCMbdAarUWKw8GDim+ciH
+0xzuq5h6Npug8wwLc0BjSyxCN/D8XlUSRW+vPD3EH/E=</SignatureBits></Signature><Name><Component ccnbencoding="text">ccnx</Component><Component ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</Component><Component ccnbencoding="text">destroyface</Component><Component ccnbencoding="base64Binary">BIICqgOyCIV/8SN0FxPLO2nBenYQI23wWsQe7AX0e82iStC8226XNwYWNas37VJp
+JSf4YK6yGhVS56TnFaENXID9zeERoQmyu9NZUJAKXj200gE5OI1xMmNgdwS24c4N
+yo4cF7+rfPUhMqUelRs1SqR7s9A+lOZiO4BgdCmC+xTKXP9WQi9P5gAA8voCxTlk
+ZTFjZTI0MzY3YzkxODY4M2E4ZjM0MjM5ZmM5MjBjY2Q5Nzc1ODgAAAGiA+IChR68
+/bK5z3qhtBMHs9EOXA6CeN3sjj5UkGJO2AFDkQ0yAAK6tQUtYxusDgAD0pYzMAAB
+4gHaCpUwgZ8wDQYJKoZIhvcNAQEBBQADgY0AMIGJAoGBANWIqzOQZsbPWmplDMx7
+iuau8SAP/EN1Ss5cPCyeatMHLZk/nBgKofHc1ZmBE6UfhRExUHvIYm3SPAZEEeZn
+eLPPr79jLlyfKlmzpB5gtHyyu0apZIzMBW8HsKSt0Z+C96k0gqhwHA+6YaVxXFHd
+CZryFy/I7NCxp0zZoUEtR3Y5AgMBAAEAAAABmgPtBYIEyt5kZXN0cm95ZmFjZQAD
+4gKFR23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAAAAAA</Component></Name><SignedInfo><PublisherPublicKeyDigest ccnbencoding="base64Binary">R23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeo=</PublisherPublicKeyDigest><Timestamp ccnbencoding="base64Binary">BS1jG8xe</Timestamp><FreshnessSeconds>10</FreshnessSeconds><KeyLocator><Key ccnbencoding="base64Binary">MIGfMA0GCSqGSIb3DQEBAQUAA4GNADCBiQKBgQCouAAiT1Ud4M6ofpJ2m/qwneMi
+Hos165FaT2DD4Na9PaIa+QxCSKrTyI6heKvZ1awY/eMjXOZusVL6GwcHaCFzVqJ4
+FUQTH3wtUTNqZbGe9udJ9jNFh16DiIUpt4DAZNlnpvRKiJCHG47hytwMQM8cp0zI
+345JbLAyvVCbmYGxXwIDAQAB</Key></KeyLocator></SignedInfo><Content ccnbencoding="base64Binary">BYID4gKFR23enDvCxYWW4RVcdKa1z/dhsRpz+fv7F/8bS+LHHeoABNKWMjAAA9KO
+MAAA</Content></ContentObject>
+<!-- Processing - -->
+ <!-- input is     51 bytes -->
+<?xml version="1.0" encoding="UTF-8"?>
+<FaceInstance><PublisherPublicKeyDigest ccnbencoding="hexBinary">476DDE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA</PublisherPublicKeyDigest><FaceID>20</FaceID><FreshnessSeconds>0</FreshnessSeconds></FaceInstance>
+0
+=== test_spur_traffic
+Spur traffic 7 is within expected bounds
+0
+=== test_scope2
+send - (13 bytes)
+recv of 150 bytes
+ CCND_DEBUG=71  CCND_DEBUG=71 
+send - (13 bytes)
+recv of 150 bytes
+ CCND_DEBUG=71  CCND_DEBUG=71 
+send - (13 bytes)
+recv of 150 bytes
+ CCND_DEBUG=71  CCND_DEBUG=71 
+<!-- Processing scope2interest.xml -->
+ scope2interest.ccnb written.
+send scope2interest.ccnb (51 bytes)
+recv timed out after 500 ms
+send scope2interest.ccnb (51 bytes)
+recv of 413 bytes
+cmp：/dev/null 已结束
+recv timed out after 333 ms
+ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2/stuff
+send - (13 bytes)
+recv of 148 bytes
+ CCND_DEBUG=1  CCND_DEBUG=1 
+send - (13 bytes)
+recv of 148 bytes
+ CCND_DEBUG=1  CCND_DEBUG=1 
+0
+=== test_single_ccnd_teardown
+0
+=== test_twohop_ccnd_teardown
+0
+=== test_alone
+0
+=== test_late
+0
+=== test_stale
+<!-- Processing - -->
+1389769151.000000 ccnd[4378]: 63006 ____________________ Wed Jan 15 14:59:11 2014
+1389769151.676828 ffff0000.ccnd[4378]: CCND_DEBUG=-1 CCND_CAP=2147483647
+1389769151.677029 ffff0000.ccnd[4378]: listening on /tmp/.ccnd.sock.63006
+1389769151.677061 ffff0000.ccnd[4378]: accepting ipv4 datagrams on fd 4 rcvbuf 229376
+1389769151.677083 ffff0000.ccnd[4378]: accepting ipv4 connections on fd 5
+1389769151.677104 ffff0000.ccnd[4378]: accepting ipv6 datagrams on fd 6 rcvbuf 229376
+1389769151.677123 ffff0000.ccnd[4378]: accepting ipv6 connections on fd 7
+1389769151.691130 ffff0000.ccnd[4378]: debug.2509 prefix,ff=3 0 ccnx:/ccnx/ping (16 bytes)
+1389769151.691299 ffff0000.ccnd[4378]: debug.2509 prefix,ff=3 0 ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd (37 bytes)
+1389769151.691322 ffff0000.ccnd[4378]: debug.2509 prefix,ff=3 0 ccnx:/%C1.M.S.neighborhood (24 bytes)
+1389769151.691357 ffff0000.ccnd[4378]: debug.2509 prefix,ff=3 0 ccnx:/%C1.M.S.neighborhood/guest (32 bytes)
+1389769151.691378 ffff0000.ccnd[4378]: debug.2509 prefix,ff=3 0 ccnx:/%C1.M.FACE (13 bytes)
+1389769151.691417 ffff0000.ccnd[4378]: debug.2509 prefix,ff=0x17 0 ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203 (45 bytes)
+1389769151.691436 ffff0000.ccnd[4378]: debug.2509 prefix,ff=0x23 0 ccnx:/%C1.M.S.localhost (20 bytes)
+1389769152.676536 ffff01f3.ccnd[4378]: accepted client fd=8 id=6
+1389769152.676615 ffff01f3.ccnd[4378]: shutdown client fd=8 id=6
+1389769152.676626 ffff01f3.ccnd[4378]: recycling face id 6 (slot 6)
+ 14:59:12 up 32 min,  2 users,  load average: 0.85, 0.56, 0.33
+1389769152.697400 ffff01fe.ccnd[4378]: accepted client fd=8 id=6
+1389769152.697463 ffff01fe.ccnd[4378]: debug.4180 interest_from 6 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769152.697472 ffff01fe.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769152.697498 ffff01fe.ccnd[4378]: ie_next_usec.3259 now+2000 i=1 f=300c 6  377269-111A-0006-C0B2-3782B8
+1389769152.697510 ffff01fe.ccnd[4378]: ie_next_usec.3276 expiry=ffff09ce
+1389769152.697516 ffff01fe.ccnd[4378]: ie_next_usec.3280 4000000 usec
+1389769152.702770 ffff0200.ccnd[4378]: debug.4180 interest_from 6 ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY (46 bytes,sim=DC5B4561)
+1389769152.702781 ffff0200.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769152.702790 ffff0200.ccnd[4378]: fwd.3142 adding 0
+1389769152.702797 ffff0200.ccnd[4378]: fwd.3142 adding 0
+1389769152.702811 ffff0200.ccnd[4378]: fwd.3142 adding 0
+1389769152.702818 ffff0200.ccnd[4378]: fwd.3142 adding 0
+1389769152.702824 ffff0200.ccnd[4378]: outbound.3227 adding 0
+1389769152.702832 ffff0200.ccnd[4378]: ie_next_usec.3259 now+2000 i=2 f=300c 6  377269-111A-0006-C0B3-E25BD8
+1389769152.702842 ffff0200.ccnd[4378]: ie_next_usec.3259 now+2 i=2 f=0500 0  000000-0000-0000-0000-000000
+1389769152.702853 ffff0200.ccnd[4378]: ie_next_usec.3276 expiry=ffff0202
+1389769152.000000 ccnd[4378]: 63006 ____________________ Wed Jan 15 14:59:12 2014
+1389769152.702859 ffff0200.ccnd[4378]: ie_next_usec.3280 4000 usec
+1389769152.706980 ffff0203.ccnd[4378]: debug.3324 interest_to 0 ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY (62 bytes,i=2,sim=DC5B4561) 377269-111A-0006-C0B3-E25BD8
+1389769152.707013 ffff0203.ccnd[4378]: debug.1004 ccnd_answer_req ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY (62 bytes,i=2,sim=DC5B4561) 377269-111A-0006-C0B3-E25BD8
+1389769152.708173 ffff0203.ccnd[4378]: debug.4492 content_from 0 ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769152.708199 ffff0203.ccnd[4378]: face 6 q 0 delay 3 usec
+1389769152.708208 ffff0203.ccnd[4378]: sl.1873 0 ci=4 osrc=4294967295 src=0 usec=12261
+1389769152.708216 ffff0203.ccnd[4378]: sl.1873 0 ci=3 osrc=4294967295 src=0 usec=12261
+1389769152.708223 ffff0203.ccnd[4378]: fwd.3142 adding 0
+1389769152.708230 ffff0203.ccnd[4378]: fwd.3142 adding 0
+1389769152.708266 ffff0203.ccnd[4378]: debug.1550 content_to 6 ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769152.709107 ffff0204.ccnd[4378]: debug.4180 interest_from 6 ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000 (509 bytes,sim=7F416007)
+1389769152.709130 ffff0204.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769152.709144 ffff0204.ccnd[4378]: fwd.3142 adding 0
+1389769152.709184 ffff0204.ccnd[4378]: debug.4231 first_candidate ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769152.709318 ffff0204.ccnd[4378]: debug.4236 prefix_mismatch ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000 (509 bytes,sim=7F416007)
+1389769152.709335 ffff0204.ccnd[4378]: fwd.3142 adding 0
+1389769152.709343 ffff0204.ccnd[4378]: outbound.3227 adding 0
+1389769152.709351 ffff0204.ccnd[4378]: ie_next_usec.3259 now+2000 i=3 f=300c 6  377269-111A-0006-C0B5-95E819
+1389769152.709361 ffff0204.ccnd[4378]: ie_next_usec.3259 now+2 i=3 f=0500 0  000000-0000-0000-0000-000000
+1389769152.709370 ffff0204.ccnd[4378]: ie_next_usec.3276 expiry=ffff0206
+1389769152.709376 ffff0204.ccnd[4378]: ie_next_usec.3280 4000 usec
+1389769152.713585 ffff0206.ccnd[4378]: debug.3324 interest_to 0 ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000 (525 bytes,i=3,sim=7F416007) 377269-111A-0006-C0B5-95E819
+1389769152.713731 ffff0206.ccnd[4378]: debug.1004 ccnd_answer_req ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000 (525 bytes,i=3,sim=7F416007) 377269-111A-0006-C0B5-95E819
+1389769152.713850 ffff0206.ccnd[4378]: debug.2509 prefix,ff=3 6 ccnx:/test/ephemeral3467 (25 bytes)
+1389769152.714533 ffff0206.ccnd[4378]: debug.1200 ccnd_answer_req_response ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000 (969 bytes)
+1389769152.714694 ffff0206.ccnd[4378]: debug.4492 content_from 0 ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000/=CE14DD37E95806A63670D96329AC1919EFE1517832B274BB70AFA261D7684902 (969 bytes)
+1389769152.714716 ffff0206.ccnd[4378]: fwd.3142 adding 0
+1389769152.714728 ffff0206.ccnd[4378]: face 6 q 0 delay 3 usec
+1389769152.714739 ffff0206.ccnd[4378]: sl.1873 0 ci=4 osrc=4294967295 src=0 usec=12261
+1389769152.714748 ffff0206.ccnd[4378]: fwd.3142 adding 0
+1389769152.714754 ffff0206.ccnd[4378]: sl.1873 0 ci=3 osrc=4294967295 src=0 usec=12261
+1389769152.714761 ffff0206.ccnd[4378]: fwd.3142 adding 0
+1389769152.714895 ffff0206.ccnd[4378]: debug.1550 content_to 6 ccnx:/ccnx/7ri=7B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/selfreg/=048202AA03B208856488498E82CC4D4308002618AA3FF38C457001EB5EAC80283B1FDAC8F2A81454174BA64389AEA57E734071BD8A78A3A90D40D63A65D4803822CFD3289A9DD9D58DAFE26C6F7C208D043BF4C05423C1EDE46762316088783509D82233B966790BCEFB4B964C4C21CEFCD620259EE6B863D561CCA5EADB1944AE2720C6E875CBE10000F20001A203E202851EBCFDB2B9CF7AA1B41307B3D10E5C0E8278DDEC8E3E5490624ED80143910D320002BAB5052D631C0B560001E201DA0A9530819F300D06092A864886F70D010101050003818D0030818902818100D588AB339066C6CF5A6A650CCC7B8AE6AEF1200FFC43754ACE5C3C2C9E6AD3072D993F9C180AA1F1DCD5998113A51F851131507BC8626DD23C064411E66778B3CFAFBF632E5C9F2A59B3A41E60B47CB2BB46A9648CCC056F07B0A4ADD19F82F7A93482A8701C0FBA61A5715C51DD099AF2172FC8ECD0B1A74CD9A1412D4776390203010001000000019A058D058A04CABE73656C6672656700F2FAA57465737400FAED657068656D6572616C33343637000003E202853772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB2030004FA8E3300000000/=CE14DD37E95806A63670D96329AC1919EFE1517832B274BB70AFA261D7684902 (969 bytes)
+1389769152.815190 ffff0239.ccnd[4378]: debug.4492 content_from 6 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.815212 ffff0239.ccnd[4378]: fwd.3142 adding 6
+1389769152.815224 ffff0239.ccnd[4378]: face 6 q 0 delay 3 usec
+1389769152.815233 ffff0239.ccnd[4378]: sl.1873 6 ci=3 osrc=4294967295 src=6 usec=12261
+1389769152.815242 ffff0239.ccnd[4378]: fwd.3142 adding 6
+1389769152.815248 ffff0239.ccnd[4378]: sl.1873 6 ci=2 osrc=4294967295 src=6 usec=12261
+1389769152.815262 ffff0239.ccnd[4378]: debug.4531 content_nosend 6 ccnx:/test/ephemeral3467/0 (446 bytes)
+1389769152.815284 ffff0239.ccnd[4378]: shutdown client fd=8 id=6
+1389769152.815293 ffff0239.ccnd[4378]: releasing face id 6 (slot 6)
+1389769152.816754 ffff0239.ccnd[4378]: accepted client fd=8 id=7
+1389769152.816796 ffff0239.ccnd[4378]: debug.4180 interest_from 7 ccnx:/test/ephemeral3467 (28 bytes,sim=CA38D44E)
+1389769152.816803 ffff0239.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769152.816830 ffff0239.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.816856 ffff0239.ccnd[4378]: debug.4246 matches ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.816864 ffff023a.ccnd[4378]: face 7 q 0 delay 3 usec
+1389769152.816879 ffff023a.ccnd[4378]: debug.4276 consume 7 ccnx:/test/ephemeral3467 (28 bytes,sim=CA38D44E)
+1389769152.816906 ffff023a.ccnd[4378]: debug.1550 content_to 7 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.817171 ffff023a.ccnd[4378]: shutdown client fd=8 id=7
+1389769152.817180 ffff023a.ccnd[4378]: releasing face id 7 (slot 7)
+1389769152.818648 ffff023a.ccnd[4378]: accepted client fd=8 id=8
+1389769152.818685 ffff023a.ccnd[4378]: debug.4180 interest_from 8 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769152.818692 ffff023a.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769152.818719 ffff023a.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.818744 ffff023a.ccnd[4378]: debug.4246 matches ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.818752 ffff023a.ccnd[4378]: face 8 q 0 delay 3 usec
+1389769152.818768 ffff023a.ccnd[4378]: debug.4276 consume 8 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769152.818795 ffff023a.ccnd[4378]: debug.1550 content_to 8 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769152.819166 ffff023b.ccnd[4378]: shutdown client fd=8 id=8
+1389769152.819175 ffff023b.ccnd[4378]: releasing face id 8 (slot 8)
+1389769152.819864 ffff023b.ccnd[4378]: accepted client fd=8 id=9
+recv timed out after 2000 ms
+1389769154.000000 ccnd[4378]: 63006 ____________________ Wed Jan 15 14:59:14 2014
+1389769154.822082 ffff0624.ccnd[4378]: shutdown client fd=8 id=9
+1389769154.822155 ffff0624.ccnd[4378]: recycling face id 9 (slot 9)
+1389769154.823589 ffff0625.ccnd[4378]: accepted client fd=8 id=9
+1389769154.823672 ffff0625.ccnd[4378]: debug.4180 interest_from 9 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769154.823681 ffff0625.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769154.823713 ffff0625.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769154.823740 ffff0625.ccnd[4378]: debug.4246 matches ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769154.823750 ffff0625.ccnd[4378]: face 9 q 0 delay 3 usec
+1389769154.823766 ffff0625.ccnd[4378]: debug.4276 consume 9 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769154.823808 ffff0625.ccnd[4378]: debug.1550 content_to 9 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769154.824192 ffff0625.ccnd[4378]: shutdown client fd=8 id=9
+1389769154.824202 ffff0625.ccnd[4378]: releasing face id 9 (slot 9)
+1389769158.827950 ffff0df7.ccnd[4378]: accepted client fd=8 id=10
+1389769158.828029 ffff0df7.ccnd[4378]: debug.4180 interest_from 10 ccnx:/test/ephemeral3467/0 (42 bytes,c=0:1,aok=0x7,sim=AB2B1BDE)
+1389769158.828038 ffff0df7.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769158.828069 ffff0df7.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769158.828096 ffff0df7.ccnd[4378]: debug.4246 matches ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769158.828105 ffff0df7.ccnd[4378]: face 10 q 0 delay 3 usec
+1389769158.828121 ffff0df7.ccnd[4378]: debug.4276 consume 10 ccnx:/test/ephemeral3467/0 (42 bytes,c=0:1,aok=0x7,sim=AB2B1BDE)
+1389769158.828151 ffff0df7.ccnd[4378]: debug.1550 content_to 10 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769158.828539 ffff0df7.ccnd[4378]: shutdown client fd=8 id=10
+1389769158.828549 ffff0df7.ccnd[4378]: releasing face id 10 (slot 10)
+1389769158.829887 ffff0df8.ccnd[4378]: accepted client fd=8 id=11
+1389769158.829926 ffff0df8.ccnd[4378]: debug.4180 interest_from 11 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769158.829939 ffff0df8.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769158.829966 ffff0df8.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769158.830002 ffff0df8.ccnd[4378]: debug.4259 prefix_mismatch ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769158.830018 ffff0df8.ccnd[4378]: ie_next_usec.3259 now+2000 i=4 f=300c 11  377269-111A-000B-C6D4-BF3C9F
+1389769158.830029 ffff0df8.ccnd[4378]: ie_next_usec.3276 expiry=ffff15c8
+1389769158.830035 ffff0df8.ccnd[4378]: ie_next_usec.3280 4000000 usec
+ccncatchunks: not found: /test/ephemeral3467
+1389769159.030353 ffff0e5c.ccnd[4378]: shutdown client fd=8 id=11
+1389769159.030394 ffff0e5c.ccnd[4378]: releasing face id 11 (slot 11)
+1389769159.000000 ccnd[4378]: 63006 ____________________ Wed Jan 15 14:59:19 2014
+1389769159.033669 ffff0e5e.ccnd[4378]: accepted client fd=8 id=12
+1389769159.033722 ffff0e5e.ccnd[4378]: accepted client fd=9 id=13
+1389769159.073920 ffff0e72.ccnd[4378]: debug.4180 interest_from 12 ccnx:/Dummy (13 bytes,sim=69B30E3C)
+1389769159.073938 ffff0e72.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769159.073984 ffff0e72.ccnd[4378]: debug.4231 first_candidate ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769159.073998 ffff0e72.ccnd[4378]: debug.4236 prefix_mismatch ccnx:/Dummy (13 bytes,sim=69B30E3C)
+1389769159.074012 ffff0e72.ccnd[4378]: ie_next_usec.3259 now+2000 i=5 f=300c 12  377269-111A-000C-C712-ADA152
+1389769159.074022 ffff0e72.ccnd[4378]: ie_next_usec.3276 expiry=ffff1642
+1389769159.074029 ffff0e72.ccnd[4378]: ie_next_usec.3280 4000000 usec
+recv timed out after 100 ms
+1389769159.133948 ffff0e90.ccnd[4378]: shutdown client fd=9 id=13
+1389769159.133967 ffff0e90.ccnd[4378]: recycling face id 13 (slot 13)
+1389769159.135509 ffff0e91.ccnd[4378]: accepted client fd=9 id=13
+1389769159.135587 ffff0e91.ccnd[4378]: debug.4180 interest_from 13 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,i=4,sim=BE7D4F6F)
+1389769159.135603 ffff0e91.ccnd[4378]: ie_next_usec.3259 now+1847 i=4 f=300c 11  377269-111A-000B-C6D4-BF3C9F
+1389769159.135615 ffff0e91.ccnd[4378]: ie_next_usec.3259 now+2000 i=4 f=300c 13  377269-111A-000D-C722-F77750
+1389769159.135634 ffff0e91.ccnd[4378]: ie_next_usec.3276 expiry=ffff15c8
+1389769159.135641 ffff0e91.ccnd[4378]: ie_next_usec.3280 3694000 usec
+ccncatchunks: not found: /test/ephemeral3467
+1389769159.335975 ffff0ef5.ccnd[4378]: shutdown client fd=9 id=13
+1389769159.336000 ffff0ef5.ccnd[4378]: releasing face id 13 (slot 13)
+1389769159.337333 ffff0ef6.ccnd[4378]: accepted client fd=9 id=14
+1389769159.337387 ffff0ef6.ccnd[4378]: debug.4180 interest_from 14 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,i=4,sim=BE7D4F6F)
+1389769159.337400 ffff0ef6.ccnd[4378]: ie_next_usec.3259 now+1746 i=4 f=300c 11  377269-111A-000B-C6D4-BF3C9F
+1389769159.337411 ffff0ef6.ccnd[4378]: ie_next_usec.3259 now+1899 i=4 f=300c 13  377269-111A-000D-C722-F77750
+1389769159.337420 ffff0ef6.ccnd[4378]: ie_next_usec.3259 now+2000 i=4 f=300c 14  377269-111A-000E-C756-0FB44D
+1389769159.337428 ffff0ef6.ccnd[4378]: ie_next_usec.3276 expiry=ffff15c8
+1389769159.337434 ffff0ef6.ccnd[4378]: ie_next_usec.3280 3492000 usec
+ccncatchunks: not found: /test/ephemeral3467
+1389769159.537825 ffff0f5a.ccnd[4378]: shutdown client fd=9 id=14
+1389769159.537848 ffff0f5a.ccnd[4378]: releasing face id 14 (slot 14)
+1389769159.539147 ffff0f5b.ccnd[4378]: accepted client fd=9 id=15
+1389769159.539200 ffff0f5b.ccnd[4378]: debug.4180 interest_from 15 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,i=4,sim=BE7D4F6F)
+1389769159.539210 ffff0f5b.ccnd[4378]: ie_next_usec.3259 now+1645 i=4 f=300c 11  377269-111A-000B-C6D4-BF3C9F
+1389769159.539219 ffff0f5b.ccnd[4378]: ie_next_usec.3259 now+1798 i=4 f=300c 13  377269-111A-000D-C722-F77750
+1389769159.539226 ffff0f5b.ccnd[4378]: ie_next_usec.3259 now+1899 i=4 f=300c 14  377269-111A-000E-C756-0FB44D
+1389769159.539232 ffff0f5b.ccnd[4378]: ie_next_usec.3259 now+2000 i=4 f=300c 15  377269-111A-000F-C78A-F1FF76
+1389769159.539239 ffff0f5b.ccnd[4378]: ie_next_usec.3276 expiry=ffff15c8
+1389769159.539243 ffff0f5b.ccnd[4378]: ie_next_usec.3280 3290000 usec
+recv timed out after 40 ms
+send dummy.ccnb (13 bytes)
+recv timed out after 600 ms
+send ephemeral3467.ccnb (446 bytes)
+1389769159.674626 ffff0f9e.ccnd[4378]: face 15 q 0 delay 3 usec
+1389769159.674645 ffff0f9e.ccnd[4378]: sl.1873 12 ci=3 osrc=6 src=12 usec=12261
+1389769159.674654 ffff0f9e.ccnd[4378]: sl.1873 12 ci=2 osrc=6 src=12 usec=12261
+1389769159.674682 ffff0f9e.ccnd[4378]: debug.1550 content_to 15 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769159.674714 ffff0f9e.ccnd[4378]: shutdown client fd=8 id=12
+1389769159.674723 ffff0f9e.ccnd[4378]: releasing face id 12 (slot 12)
+1389769159.675106 ffff0f9f.ccnd[4378]: shutdown client fd=9 id=15
+1389769159.675117 ffff0f9f.ccnd[4378]: releasing face id 15 (slot 15)
+1389769159.677915 ffff0fa0.ccnd[4378]: accepted client fd=8 id=16
+1389769159.677963 ffff0fa0.ccnd[4378]: debug.4180 interest_from 16 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769159.677971 ffff0fa0.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769159.677999 ffff0fa0.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769159.678025 ffff0fa0.ccnd[4378]: debug.4246 matches ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769159.678034 ffff0fa0.ccnd[4378]: face 16 q 0 delay 3 usec
+1389769159.678049 ffff0fa0.ccnd[4378]: debug.4276 consume 16 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769159.678077 ffff0fa0.ccnd[4378]: debug.1550 content_to 16 ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769159.678474 ffff0fa0.ccnd[4378]: shutdown client fd=8 id=16
+1389769159.678483 ffff0fa0.ccnd[4378]: releasing face id 16 (slot 16)
+1389769163.000000 ccnd[4378]: 63006 ____________________ Wed Jan 15 14:59:23 2014
+1389769163.075126 ffff1643.ccnd[4378]: debug.3514 interest_expiry ccnx:/Dummy (13 bytes,i=5,sim=69B30E3C)
+1389769164.682064 ffff1966.ccnd[4378]: accepted client fd=8 id=17
+1389769164.682132 ffff1966.ccnd[4378]: debug.4180 interest_from 17 ccnx:/test/ephemeral3467/0 (37 bytes,c=0:1,sim=BE7D4F6F)
+1389769164.682141 ffff1966.ccnd[4378]: version: 20090701, etc: 0 bytes
+1389769164.682172 ffff1966.ccnd[4378]: debug.4231 first_candidate ccnx:/test/ephemeral3467/0/%1AW=CF8857766DC7FC61D96D940B6400895647AD75246782C72C296F7B86614E (446 bytes)
+1389769164.682209 ffff1966.ccnd[4378]: debug.4259 prefix_mismatch ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd/KEY/%C1.M.K=003772697B2B432857A7C96E66411B5A1576BC2B584FB0223B330DBA67963DB203/=FD052D631BFAD4/=00/=889A27B678BAB935A8CB51BD41881249CD4D32017C87EC43731C36228695CA84 (575 bytes)
+1389769164.682223 ffff1966.ccnd[4378]: ie_next_usec.3259 now+2000 i=6 f=300c 17  377269-111A-0011-CCAE-694CFA
+1389769164.682234 ffff1966.ccnd[4378]: ie_next_usec.3276 expiry=ffff2136
+1389769164.682240 ffff1966.ccnd[4378]: ie_next_usec.3280 4000000 usec
+ccncatchunks: not found: /test/ephemeral3467
+1389769164.882450 ffff19ca.ccnd[4378]: shutdown client fd=8 id=17
+1389769164.882462 ffff19ca.ccnd[4378]: releasing face id 17 (slot 17)
+1389769164.885703 ffff19cc.ccnd[4378]: accepted client fd=8 id=18
+1389769164.887284 ffff19cd.ccnd[4378]: accepted client fd=9 id=19
+1389769164.887301 ffff19cd.ccnd[4378]: stopping (/tmp/.ccnd.sock.63006 gone)
+1389769164.887308 ffff19cd.ccnd[4378]: exiting.
+1389769164.887322 ffff19cd.ccnd[4378]: closing fd 3 while finalizing face 1
+1389769164.887330 ffff19cd.ccnd[4378]: releasing face id 1 (slot 1)
+1389769164.887345 ffff19cd.ccnd[4378]: closing fd 5 while finalizing face 3
+1389769164.887353 ffff19cd.ccnd[4378]: releasing face id 3 (slot 3)
+1389769164.887365 ffff19cd.ccnd[4378]: closing fd 7 while finalizing face 5
+1389769164.887373 ffff19cd.ccnd[4378]: releasing face id 5 (slot 5)
+1389769164.887384 ffff19cd.ccnd[4378]: closing fd 4 while finalizing face 2
+1389769164.887392 ffff19cd.ccnd[4378]: releasing face id 2 (slot 2)
+1389769164.887402 ffff19cd.ccnd[4378]: closing fd 6 while finalizing face 4
+1389769164.887409 ffff19cd.ccnd[4378]: releasing face id 4 (slot 4)
+1389769164.887487 ffff19cd.ccnd[4378]: closing fd 8 while finalizing face 18
+1389769164.887496 ffff19cd.ccnd[4378]: releasing face id 18 (slot 18)
+1389769164.887542 ffff19cd.ccnd[4378]: closing fd 9 while finalizing face 19
+1389769164.887551 ffff19cd.ccnd[4378]: recycling face id 19 (slot 19)
+0
+=== test_finished
+0
+=== test_final_teardown
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60251         TIME_WAIT  
+tcp        0      0 127.0.0.1:60247         127.0.0.1:63000         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60249         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60254         TIME_WAIT  
+tcp        0      0 127.0.0.1:63002         127.0.0.1:48260         TIME_WAIT  
+tcp        0      0 127.0.0.1:63003         127.0.0.1:39734         TIME_WAIT  
+tcp        0      0 127.0.0.1:63001         127.0.0.1:34761         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60255         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60253         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60252         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60260         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60259         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60250         TIME_WAIT  
+tcp        0      0 127.0.0.1:63004         127.0.0.1:50330         TIME_WAIT  
+0
+: -------------- :
+:  TESTS PASSED  :
+: -------------- :
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+/home/ice/ccnx-0.8.1/csrc/exttests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+MAKE_TEST_TARGET=test ./testdriver 
+ccnd is ../ccnd/ccnd
+ccnr is ../ccnr/ccnr
+ccncat is ../cmd/ccncat
+jot is /usr/bin/jot
+SyncTest is ../sync/SyncTest
+Planned: test_long_example test_finished test_check test_btree_prev_leaf test_btree_next_leaf test_single_ccnd test_happy_face test_sync_basic test_single_done test_twohop_ccnd test_sync_read test_twohop_ccnd_teardown test_late test_single_ccnd_teardown test_sync_repo2 test_checked_startwrite test_alone test_repo_performance test_final_teardown
+=== test_long_example
+10 ... 9 ... 8 ... 7 ... 6 ... 5 ... 4 ... 3 ... 2 ... 1 ... BLAST OFF
+0
+=== test_finished
+0
+=== test_check
+0
+=== test_btree_prev_leaf
+ccnbtreetest is ../lib/ccnbtreetest
+0
+=== test_btree_next_leaf
+ccnbtreetest is ../lib/ccnbtreetest
+0
+=== test_single_ccnd
+ccnx:/parc.com/csl/ccn/Repos/data/policy.xml/=FD052D631D8454/=00
+ccnx:/hello/world/=FD052D631D8455/=00
+ccnx:/hello/world/=FD052D631D8455/=0001
+ccnx:/hello/world/=FD052D631D8455/=0002
+ccnx:/hello/world/=FD052D631D8455/=0003
+ccnx:/hello/world/=FD052D631D8455/=0004
+ccnx:/hello/world/=FD052D631D8455/=0005
+ccnx:/hello/world/=FD052D631D8455/=0006
+marked stale: 8
+Hello World
+0
+=== test_happy_face
+:-)
+0
+=== test_sync_basic
+0
+=== test_single_done
+0
+=== test_twohop_ccnd
+send - (7 bytes)
+recv of 100 bytes
+recv of 3584 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 3586 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 2893 bytes
+send - (7 bytes)
+recv of 100 bytes
+recv of 2891 bytes
+happy [verified]
+0
+=== test_sync_read
+0
+=== test_twohop_ccnd_teardown
+0
+=== test_late
+0
+=== test_single_ccnd_teardown
+0
+=== test_sync_repo2
+-- Start and init repo 1
+CCNR_DEBUG=INFO
+in StartRepo 1, ./repo.1.dir
+sendSlice, sent /%C1.M.S.localhost/%C1.S.cs/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=FD052D631DAEE4/=00
+transferred 1048576 bytes in 0.133 seconds = 7.884 MB/sec
+marked stale: 257
+.
+-- Start and init repo 2
+CCNR_DEBUG=INFO
+in StartRepo 2, ./repo.2.dir
+sendSlice, sent /%C1.M.S.localhost/%C1.S.cs/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=FD052D631DC75C/=00
+-- Wait for sync and fetch data
+..
+-- Kill repo 1, flush ccnd 2, then fetch data from repo 2
+marked stale: 256
+transferred 1048576 bytes in 0.845 seconds = 1.240 MB/sec
+-- Checking output
+0
+=== test_checked_startwrite
+1389769183.684463 ccnr[4859]: CCNR_DEBUG=7 CCNR_DIRECTORY=sw-c CCNR_STATUS_PORT=
+1389769183.706201 ccnr[4859]: New repository private key saved in sw-c/ccnx_repository_keystore
+1389769183.706371 ccnr[4859]: Bad stable mark - 
+1389769183.706402 ccnr[4859]: Repository file is indexed
+1389769183.709565 ccnr[4859]: Creating new policy file.
+1389769183.714035 ccnr[4859]: lost connection to ccnd
+1389769183.714045 ccnr[4859]: exiting.
+1389769183.715974 ccnr[4860]: CCNR_DEBUG=7 CCNR_DIRECTORY=sw-c-2 CCNR_STATUS_PORT=
+1389769183.751793 ccnr[4860]: New repository private key saved in sw-c-2/ccnx_repository_keystore
+1389769183.751969 ccnr[4860]: Bad stable mark - 
+1389769183.752002 ccnr[4860]: Repository file is indexed
+1389769183.755157 ccnr[4860]: Creating new policy file.
+1389769183.759577 ccnr[4860]: lost connection to ccnd
+1389769183.759586 ccnr[4860]: exiting.
+send - (13 bytes)
+recv of 150 bytes
+ CCND_DEBUG=71  CCND_DEBUG=71 
+<!-- Processing sw-c/repoFile1 -->
+ <!-- input is   4289 bytes -->
+
+SWCR is ccnx:/test-sw-c/vMtP1QKJKi289cd7/=FD052D631DFD16/%C1.R.sw-c/%C1.N%003edAG0sVP-Eq06xr/=0003/=16968D36005EA93A2FD0AEDC1F41F5CDF257E59C3DA4999ABD853DFAECD17043
+send - (13 bytes)
+recv of 150 bytes
+ CCND_DEBUG=71  CCND_DEBUG=71 
+Reading sw-c/repoFile1-00000.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00001.ccnb ... Added to pool 0
+<!-- Processing sw-c.ccnb -->
+ <!-- input is     73 bytes -->
+SWCR is now ccnx:/test-sw-c/vMtP1QKJKi289cd7/=FD052D631DFD16/%C1.R.sw-c/%C1.N%00CJI8WCNqz9TZKnVG/=0003/=16968D36005EA93A2FD0AEDC1F41F5CDF257E59C3DA4999ABD853DFAECD17043
+Reading sw-c/repoFile1-00002.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00003.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00004.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00005.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00006.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00007.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00008.ccnb ... Added to pool 0
+Reading sw-c/repoFile1-00009.ccnb ... Added to pool 0
+Prefix ff=0x3 ccnx:/test-sw-c/vMtP1QKJKi289cd7/=FD052D631DFD16 pool 0
+CCN_UPCALL_FINAL for store 0
+<!-- Processing sw-c-2.ccnb -->
+ <!-- input is    158 bytes -->
+Reading unsegmented.ccnb ... Added to pool 0
+SWCR is now ccnx:/test-sw-c/unsegmented/%C1.R.sw-c/%C1.N%00mOGF7Q0mTsIftiY_/vMtP1QKJKi289cd7/=da3317b40c22b95366530e805d8cd997d414fb8d099aabde9c271f9c7d8fd634
+Prefix ff=0x3 ccnx:/test-sw-c/unsegmented pool 0
+CCN_UPCALL_FINAL for store 0
+Store 0 got interest matching 2 components, kind = 1... sent my content:
+0
+=== test_alone
+0
+=== test_repo_performance
+START TRP-1389769188
+记录了1+0 的读入
+记录了1+0 的写出
+1字节(1 B)已复制，2.6889e-05 秒，37.2 kB/秒
+1389769189.008561 SyncTest[4970]: 5000000 bytes transferred in 0.621773 seconds (8041519 bytes/sec)
+marked stale: 0
+-rw-rw-r-- 1 ice ice 5502086  1月 15 14:59 ./staged.5000000/repoFile1
+Start write request will be ccnx:/test/bulk/5000000.dat/=FD052D631E4548/%C1.R.sw/%C1.N%00KI2yQAHSPIMZE8aw
+Saving env in TRP-env.out
+send ./staged.5000000/repoFile1 (1048576 bytes)
+send ./staged.5000000/repoFile1 (1048576 bytes)
+send ./staged.5000000/repoFile1 (1048576 bytes)
+send ./staged.5000000/repoFile1 (1048576 bytes)
+send ./staged.5000000/repoFile1 (1048576 bytes)
+send ./staged.5000000/repoFile1 (259206 bytes)
+Repo write test using ccnr TEST_DATA_SIZE=5000000
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ice       3020  0.0  0.0  13708  1832 pts/1    S    14:58   0:00 ccnd
+ice       4990  4.5  0.3  18372  7392 pts/1    S+   14:59   0:00 ccnd
+ice       4999  0.0  0.1  13048  2176 pts/1    S+   14:59   0:00 ccnr
+TRP-1389769188-startwrite
+1389769191.396524 SyncTest[5003]: 516 bytes transferred in 0.005331 seconds (96792 bytes/sec)
+real 0.00
+user 0.00
+sys 0.00
+1389769191.397709 d=2058,i=2373897 28672
+1389769191.497870 d=2058,i=2373897 5156256
+1389769191.598026 d=2058,i=2373897 5502086
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ice       3020  0.0  0.0  13708  1832 pts/1    S    14:58   0:00 ccnd
+ice       4990  2.4  0.3  18644  7740 pts/1    S+   14:59   0:00 ccnd
+ice       4999  1.8  0.3  19080  7980 pts/1    S+   14:59   0:00 ccnr
+Repo read test using ccnr TEST_DATA_SIZE=5000000
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ice       3020  0.0  0.0  13708  1832 pts/1    S    14:58   0:00 ccnd
+ice       5014  0.0  0.0  12676  1816 pts/1    S+   14:59   0:00 ccnd
+ice       5019  1.0  0.1  13224  2352 pts/1    S+   14:59   0:00 ccnr
+CCN_EXPERIMENT_ID=TRP-1389769188-p12-b5000000-v2-1
+1389769198.909745 SyncTest[5023]: TRP-1389769188-p12-b5000000-v2-1 5000000 bytes transferred in 0.209657 seconds (23848476 bytes/sec)
+real 0.21
+user 0.02
+sys 0.00
+marked stale: 100
+marked stale: 0
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ice       3020  0.0  0.0  13708  1832 pts/1    S    14:58   0:00 ccnd
+ice       5014  7.0  0.1  13736  2872 pts/1    S+   14:59   0:00 ccnd
+ice       5019  1.6  0.4  19044  8156 pts/1    S+   14:59   0:00 ccnr
+CCN_EXPERIMENT_ID=TRP-1389769188-p12-b5000000-v2-2
+1389769200.461009 SyncTest[5036]: TRP-1389769188-p12-b5000000-v2-2 5000000 bytes transferred in 0.206252 seconds (24242189 bytes/sec)
+real 0.20
+user 0.02
+sys 0.00
+marked stale: 100
+marked stale: 0
+USER       PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+ice       3020  0.0  0.0  13708  1832 pts/1    S    14:58   0:00 ccnd
+ice       5014 11.0  0.1  13868  3136 pts/1    S+   14:59   0:00 ccnd
+ice       5019  2.2  0.4  19044  8156 pts/1    S+   14:59   0:00 ccnr
+CCN_EXPERIMENT_ID=TRP-1389769188-p12-b5000000-v2-3
+1389769202.012236 SyncTest[5043]: TRP-1389769188-p12-b5000000-v2-3 5000000 bytes transferred in 0.209115 seconds (23910288 bytes/sec)
+real 0.21
+user 0.02
+sys 0.00
+marked stale: 100
+marked stale: 0
+Repo2 startup with stable index, no ccnd TEST_DATA_SIZE=5000000
+1389769204.350213 ccnr[5055]: CCNR_DEBUG=9 CCNR_DIRECTORY=./testrepo2 CCNR_STATUS_PORT=
+1389769204.350884 ccnr[5055]: Last stable at 5502086
+1389769204.350944 ccnr[5055]: opened fd=5 file=./testrepo2/repoFile1
+1389769204.350963 ccnr[5055]: Repository file is indexed
+1389769204.355308 ccnr[5055]: CCNR_SKIP_VERIFY=1
+1389769204.355611 ccnr[5055]: opened fd=7 file=./testrepo2/repoFile1
+1389769204.359839 ccnr[5055]: Adding listener for policy namespace /
+1389769204.359857 ccnr[5055]: Adding listener for policy global prefix ccnx:/parc.com/csl/ccn/Repos
+1389769204.359886 ccnr[5055]: lost connection to ccnd
+1389769204.359894 ccnr[5055]: exiting.
+1389769204.359902 ccnr[5055]: shutdown client fd=5
+1389769204.359910 ccnr[5055]: shutdown client fd=7
+1389769204.359969 ccnr[5055]: shutdown client fd=0
+1389769204.360074 ccnr[5055]: Index marked stable - 5502086
+real 0.01
+user 0.00
+sys 0.00
+Repo2 startup with index rebuild, no ccnd TEST_DATA_SIZE=5000000
+1389769204.367999 ccnr[5060]: CCNR_DEBUG=9 CCNR_DIRECTORY=./testrepo2 CCNR_STATUS_PORT=
+1389769204.368264 ccnr[5060]: Bad stable mark - 
+1389769204.368288 ccnr[5060]: opened fd=5 file=./testrepo2/repoFile1
+1389769204.368296 ccnr[5060]: Index not current - resetting
+1389769204.368703 ccnr[5060]: opened fd=7 file=./testrepo2/repoFile1
+1389769204.421333 ccnr[5060]: indexing 76% complete
+1389769204.437165 ccnr[5060]: read 5502086 bytes
+1389769204.437195 ccnr[5060]: shutdown client fd=7
+1389769204.437242 ccnr[5060]: Repository file is indexed
+1389769204.440585 ccnr[5060]: CCNR_SKIP_VERIFY=1
+1389769204.443804 ccnr[5060]: Adding listener for policy namespace /
+1389769204.443819 ccnr[5060]: Adding listener for policy global prefix ccnx:/parc.com/csl/ccn/Repos
+1389769204.443848 ccnr[5060]: lost connection to ccnd
+1389769204.443855 ccnr[5060]: exiting.
+1389769204.443862 ccnr[5060]: shutdown client fd=5
+1389769204.443888 ccnr[5060]: shutdown client fd=0
+1389769204.445015 ccnr[5060]: Index marked stable - 5502086
+real 0.07
+user 0.06
+sys 0.00
+END TRP-1389769188
+0
+=== test_final_teardown
+tcp        0      0 127.0.0.1:63001         127.0.0.1:34774         TIME_WAIT  
+tcp        0      0 127.0.0.1:63003         127.0.0.1:39747         TIME_WAIT  
+tcp        0      0 127.0.0.1:63002         127.0.0.1:48273         TIME_WAIT  
+tcp        0      0 127.0.0.1:63000         127.0.0.1:60268         TIME_WAIT  
+0
+: ----------------------- :
+:  SCRIPTED TESTS PASSED  :
+: ----------------------- :
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/exttests'

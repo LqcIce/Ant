@@ -1,0 +1,301 @@
+1389769130.304364 ccnd[3821]: CCND_DEBUG=1 CCND_CAP=2147483647
+1389769130.304511 ccnd[3821]: listening on /tmp/.ccnd.sock.63000
+1389769130.304546 ccnd[3821]: accepting ipv4 datagrams on fd 4 rcvbuf 229376
+1389769130.304567 ccnd[3821]: accepting ipv4 connections on fd 5
+1389769130.304588 ccnd[3821]: accepting ipv6 datagrams on fd 6 rcvbuf 229376
+1389769130.304607 ccnd[3821]: accepting ipv6 connections on fd 7
+1389769130.404835 ccnd[3821]: accepted client fd=8 id=6
+1389769130.404892 ccnd[3821]: shutdown client fd=8 id=6
+1389769130.404903 ccnd[3821]: recycling face id 6 (slot 6)
+1389769131.432963 ccnd[3821]: accepted client fd=8 id=6
+1389769131.564912 ccnd[3821]: shutdown client fd=8 id=6
+1389769131.564946 ccnd[3821]: releasing face id 6 (slot 6)
+1389769131.566624 ccnd[3821]: accepted client fd=8 id=7
+1389769131.567060 ccnd[3821]: shutdown client fd=8 id=7
+1389769131.567071 ccnd[3821]: releasing face id 7 (slot 7)
+1389769131.577242 ccnd[3821]: accepted client fd=8 id=8
+1389769131.577361 ccnd[3821]: accepted client fd=9 id=9
+1389769131.577790 ccnd[3821]: accepted client fd=10 id=10
+1389769131.578999 ccnd[3821]: accepted client fd=11 id=11
+1389769131.593355 ccnd[3821]: accepted client fd=12 id=12
+1389769132.079774 ccnd[3821]: shutdown client fd=11 id=11
+1389769132.079818 ccnd[3821]: releasing face id 11 (slot 11)
+1389769132.081241 ccnd[3821]: accepted client fd=11 id=13
+1389769132.085625 ccnd[3821]: shutdown client fd=10 id=10
+1389769132.085666 ccnd[3821]: releasing face id 10 (slot 10)
+1389769132.085914 ccnd[3821]: shutdown client fd=11 id=13
+1389769132.085926 ccnd[3821]: releasing face id 13 (slot 13)
+1389769132.087754 ccnd[3821]: accepted client fd=10 id=14
+1389769132.092119 ccnd[3821]: shutdown client fd=9 id=9
+1389769132.092152 ccnd[3821]: releasing face id 9 (slot 9)
+1389769132.092561 ccnd[3821]: shutdown client fd=10 id=14
+1389769132.092573 ccnd[3821]: releasing face id 14 (slot 14)
+1389769132.094486 ccnd[3821]: accepted client fd=9 id=15
+1389769132.106844 ccnd[3821]: shutdown client fd=8 id=8
+1389769132.106877 ccnd[3821]: releasing face id 8 (slot 8)
+1389769132.107184 ccnd[3821]: shutdown client fd=9 id=15
+1389769132.107198 ccnd[3821]: releasing face id 15 (slot 15)
+1389769132.108215 ccnd[3821]: accepted client fd=8 id=16
+1389769132.608870 ccnd[3821]: shutdown client fd=8 id=16
+1389769132.608892 ccnd[3821]: recycling face id 16 (slot 16)
+1389769132.609158 ccnd[3821]: shutdown client fd=12 id=12
+1389769132.609170 ccnd[3821]: releasing face id 12 (slot 12)
+1389769132.613390 ccnd[3821]: accepted client fd=8 id=16
+1389769132.613439 ccnd[3821]: shutdown client fd=8 id=16
+1389769132.613449 ccnd[3821]: recycling face id 16 (slot 16)
+1389769132.615030 ccnd[3821]: accepted client fd=8 id=16
+1389769132.615375 ccnd[3821]: shutdown client fd=8 id=16
+1389769132.615386 ccnd[3821]: releasing face id 16 (slot 16)
+1389769132.620993 ccnd[3821]: accepted client fd=8 id=17
+1389769132.627074 ccnd[3821]: shutdown client fd=8 id=17
+1389769132.627089 ccnd[3821]: releasing face id 17 (slot 17)
+1389769132.628901 ccnd[3821]: accepted client fd=8 id=18
+1389769132.629223 ccnd[3821]: shutdown client fd=8 id=18
+1389769132.629234 ccnd[3821]: releasing face id 18 (slot 18)
+1389769132.634485 ccnd[3821]: accepted client fd=8 id=19
+1389769132.638730 ccnd[3821]: accepted datagram client id=20 (flags=0x40012) 10.211.55.8 port 9695
+1389769132.639526 ccnd[3821]: shutdown client fd=8 id=19
+1389769132.639538 ccnd[3821]: releasing face id 19 (slot 19)
+1389769132.649195 ccnd[3821]: accepted client fd=8 id=21
+1389769132.649858 ccnd[3821]: accepted client fd=9 id=22
+1389769132.915686 ccnd[3821]: shutdown client fd=8 id=21
+1389769132.915710 ccnd[3821]: releasing face id 21 (slot 21)
+1389769132.917214 ccnd[3821]: accepted client fd=8 id=23
+1389769132.930478 ccnd[3821]: shutdown client fd=8 id=23
+1389769132.930493 ccnd[3821]: releasing face id 23 (slot 23)
+1389769132.930725 ccnd[3821]: shutdown client fd=9 id=22
+1389769132.930736 ccnd[3821]: releasing face id 22 (slot 22)
+1389769132.934782 ccnd[3821]: accepted client fd=8 id=24
+1389769132.937435 ccnd[3821]: accepted client fd=9 id=25
+1389769133.939703 ccnd[3821]: accepted client fd=10 id=26
+1389769133.945153 ccnd[3821]: connecting to client fd=11 id=27
+1389769133.951403 ccnd[3821]: shutdown client fd=10 id=26
+1389769133.951417 ccnd[3821]: releasing face id 26 (slot 26)
+1389769135.335015 ccnd[3821]: shutdown client fd=9 id=25
+1389769135.335055 ccnd[3821]: releasing face id 25 (slot 25)
+1389769135.350712 ccnd[3821]: shutdown client fd=11 id=27
+1389769135.350751 ccnd[3821]: releasing face id 27 (slot 27)
+1389769136.376885 ccnd[3821]: accepted client fd=9 id=28
+1389769136.548538 ccnd[3821]: accepted client fd=10 id=29
+1389769136.549319 ccnd[3821]: shutdown client fd=10 id=29
+1389769136.549330 ccnd[3821]: recycling face id 29 (slot 29)
+1389769140.564092 ccnd[3821]: accepted client fd=10 id=29
+1389769140.564450 ccnd[3821]: shutdown client fd=10 id=29
+1389769140.564465 ccnd[3821]: recycling face id 29 (slot 29)
+1389769140.573649 ccnd[3821]: shutdown client fd=9 id=28
+1389769140.573693 ccnd[3821]: releasing face id 28 (slot 28)
+1389769140.575961 ccnd[3821]: accepted client fd=9 id=29
+1389769140.581367 ccnd[3821]: shutdown client fd=9 id=29
+1389769140.581384 ccnd[3821]: releasing face id 29 (slot 29)
+1389769140.582986 ccnd[3821]: accepted client fd=9 id=30
+1389769140.583303 ccnd[3821]: shutdown client fd=9 id=30
+1389769140.583313 ccnd[3821]: releasing face id 30 (slot 30)
+1389769140.607289 ccnd[3821]: accepted client fd=9 id=31
+1389769140.607481 ccnd[3821]: accepted client fd=10 id=32
+1389769140.620377 ccnd[3821]: shutdown client fd=9 id=31
+1389769140.620398 ccnd[3821]: releasing face id 31 (slot 31)
+1389769140.698014 ccnd[3821]: shutdown client fd=10 id=32
+1389769140.698034 ccnd[3821]: releasing face id 32 (slot 32)
+1389769140.699936 ccnd[3821]: accepted client fd=9 id=33
+1389769140.701438 ccnd[3821]: shutdown client fd=9 id=33
+1389769140.701450 ccnd[3821]: releasing face id 33 (slot 33)
+1389769140.704999 ccnd[3821]: accepted client fd=9 id=34
+1389769140.710476 ccnd[3821]: shutdown client fd=9 id=34
+1389769140.710506 ccnd[3821]: releasing face id 34 (slot 34)
+1389769140.712117 ccnd[3821]: accepted client fd=9 id=35
+1389769140.717479 ccnd[3821]: shutdown client fd=9 id=35
+1389769140.717493 ccnd[3821]: releasing face id 35 (slot 35)
+1389769140.718989 ccnd[3821]: accepted client fd=9 id=36
+1389769140.724300 ccnd[3821]: shutdown client fd=9 id=36
+1389769140.724314 ccnd[3821]: releasing face id 36 (slot 36)
+1389769140.725857 ccnd[3821]: accepted client fd=9 id=37
+1389769140.731249 ccnd[3821]: shutdown client fd=9 id=37
+1389769140.731280 ccnd[3821]: releasing face id 37 (slot 37)
+1389769140.732890 ccnd[3821]: accepted client fd=9 id=38
+1389769140.738354 ccnd[3821]: shutdown client fd=9 id=38
+1389769140.738384 ccnd[3821]: releasing face id 38 (slot 38)
+1389769140.740153 ccnd[3821]: accepted client fd=9 id=39
+1389769140.745498 ccnd[3821]: shutdown client fd=9 id=39
+1389769140.745512 ccnd[3821]: releasing face id 39 (slot 39)
+1389769140.747045 ccnd[3821]: accepted client fd=9 id=40
+1389769140.752419 ccnd[3821]: shutdown client fd=9 id=40
+1389769140.752452 ccnd[3821]: releasing face id 40 (slot 40)
+1389769140.754172 ccnd[3821]: accepted client fd=9 id=41
+1389769140.759595 ccnd[3821]: shutdown client fd=9 id=41
+1389769140.759627 ccnd[3821]: releasing face id 41 (slot 41)
+1389769140.761189 ccnd[3821]: accepted client fd=9 id=42
+1389769140.766601 ccnd[3821]: shutdown client fd=9 id=42
+1389769140.766615 ccnd[3821]: releasing face id 42 (slot 42)
+1389769140.768177 ccnd[3821]: accepted client fd=9 id=43
+1389769140.773580 ccnd[3821]: shutdown client fd=9 id=43
+1389769140.773611 ccnd[3821]: releasing face id 43 (slot 43)
+1389769140.775165 ccnd[3821]: accepted client fd=9 id=44
+1389769140.780494 ccnd[3821]: shutdown client fd=9 id=44
+1389769140.780509 ccnd[3821]: releasing face id 44 (slot 44)
+1389769140.782093 ccnd[3821]: accepted client fd=9 id=45
+1389769140.787442 ccnd[3821]: shutdown client fd=9 id=45
+1389769140.787457 ccnd[3821]: releasing face id 45 (slot 45)
+1389769140.789017 ccnd[3821]: accepted client fd=9 id=46
+1389769140.794367 ccnd[3821]: shutdown client fd=9 id=46
+1389769140.794395 ccnd[3821]: releasing face id 46 (slot 46)
+1389769140.795980 ccnd[3821]: accepted client fd=9 id=47
+1389769140.801385 ccnd[3821]: shutdown client fd=9 id=47
+1389769140.801404 ccnd[3821]: releasing face id 47 (slot 47)
+1389769140.803137 ccnd[3821]: accepted client fd=9 id=48
+1389769140.808486 ccnd[3821]: shutdown client fd=9 id=48
+1389769140.808501 ccnd[3821]: releasing face id 48 (slot 48)
+1389769140.810125 ccnd[3821]: accepted client fd=9 id=49
+1389769140.815473 ccnd[3821]: shutdown client fd=9 id=49
+1389769140.815488 ccnd[3821]: releasing face id 49 (slot 49)
+1389769140.816992 ccnd[3821]: accepted client fd=9 id=50
+1389769140.822289 ccnd[3821]: shutdown client fd=9 id=50
+1389769140.822304 ccnd[3821]: releasing face id 50 (slot 50)
+1389769140.823892 ccnd[3821]: accepted client fd=9 id=51
+1389769140.829206 ccnd[3821]: shutdown client fd=9 id=51
+1389769140.829222 ccnd[3821]: releasing face id 51 (slot 51)
+1389769140.830765 ccnd[3821]: accepted client fd=9 id=52
+1389769140.836105 ccnd[3821]: shutdown client fd=9 id=52
+1389769140.836123 ccnd[3821]: releasing face id 52 (slot 52)
+1389769140.837689 ccnd[3821]: accepted client fd=9 id=53
+1389769140.842979 ccnd[3821]: shutdown client fd=9 id=53
+1389769140.842995 ccnd[3821]: releasing face id 53 (slot 53)
+1389769140.844785 ccnd[3821]: accepted client fd=9 id=54
+1389769140.845038 ccnd[3821]: shutdown client fd=9 id=54
+1389769140.845048 ccnd[3821]: releasing face id 54 (slot 54)
+1389769140.850001 ccnd[3821]: accepted client fd=9 id=55
+1389769140.855362 ccnd[3821]: shutdown client fd=9 id=55
+1389769140.855380 ccnd[3821]: releasing face id 55 (slot 55)
+1389769140.856877 ccnd[3821]: accepted client fd=9 id=56
+1389769141.858368 ccnd[3821]: shutdown client fd=9 id=56
+1389769141.858409 ccnd[3821]: releasing face id 56 (slot 56)
+1389769141.860128 ccnd[3821]: accepted client fd=9 id=57
+1389769142.861618 ccnd[3821]: shutdown client fd=9 id=57
+1389769142.861663 ccnd[3821]: releasing face id 57 (slot 57)
+1389769142.863318 ccnd[3821]: accepted client fd=9 id=58
+1389769142.869460 ccnd[3821]: shutdown client fd=9 id=58
+1389769142.869472 ccnd[3821]: releasing face id 58 (slot 58)
+1389769142.870933 ccnd[3821]: accepted client fd=9 id=59
+1389769143.872706 ccnd[3821]: shutdown client fd=9 id=59
+1389769143.872747 ccnd[3821]: releasing face id 59 (slot 59)
+1389769143.875142 ccnd[3821]: accepted client fd=9 id=60
+1389769143.875538 ccnd[3821]: shutdown client fd=9 id=60
+1389769143.875591 ccnd[3821]: releasing face id 60 (slot 60)
+1389769143.938068 ccnd[3821]: accepted client fd=9 id=61
+1389769144.207783 ccnd[3821]: error on face 24: Connection reset by peer (104)
+1389769144.207854 ccnd[3821]: shutdown client fd=8 id=24
+1389769144.207863 ccnd[3821]: releasing face id 24 (slot 24)
+1389769144.208378 ccnd[3821]: shutdown client fd=9 id=61
+1389769144.208390 ccnd[3821]: releasing face id 61 (slot 61)
+1389769144.210519 ccnd[3821]: accepted client fd=8 id=62
+1389769144.210558 ccnd[3821]: shutdown client fd=8 id=62
+1389769144.210566 ccnd[3821]: recycling face id 62 (slot 62)
+1389769144.217360 ccnd[3821]: accepted client fd=8 id=62
+1389769144.222657 ccnd[3821]: shutdown client fd=8 id=62
+1389769144.222669 ccnd[3821]: releasing face id 62 (slot 62)
+1389769144.224296 ccnd[3821]: accepted client fd=8 id=63
+1389769144.224573 ccnd[3821]: shutdown client fd=8 id=63
+1389769144.224583 ccnd[3821]: releasing face id 63 (slot 63)
+1389769144.231520 ccnd[3821]: accepted client fd=8 id=64
+1389769144.232163 ccnd[3821]: shutdown client fd=8 id=64
+1389769144.232177 ccnd[3821]: recycling face id 64 (slot 64)
+1389769144.234765 ccnd[3821]: accepted datagram client id=64 (flags=0x1016) 127.0.0.1 port 47253
+1389769144.239846 ccnd[3821]: accepted client fd=8 id=65
+1389769144.240429 ccnd[3821]: shutdown client fd=8 id=65
+1389769144.240442 ccnd[3821]: recycling face id 65 (slot 65)
+1389769144.243673 ccnd[3821]: accepted client fd=8 id=65
+1389769144.243711 ccnd[3821]: shutdown client fd=8 id=65
+1389769144.243720 ccnd[3821]: recycling face id 65 (slot 65)
+1389769144.252743 ccnd[3821]: accepted client fd=8 id=65
+1389769144.258889 ccnd[3821]: shutdown client fd=8 id=65
+1389769144.258901 ccnd[3821]: releasing face id 65 (slot 65)
+1389769144.260727 ccnd[3821]: accepted client fd=8 id=66
+1389769144.261109 ccnd[3821]: shutdown client fd=8 id=66
+1389769144.261122 ccnd[3821]: releasing face id 66 (slot 66)
+1389769144.267994 ccnd[3821]: accepted client fd=8 id=67
+1389769144.268573 ccnd[3821]: shutdown client fd=8 id=67
+1389769144.268587 ccnd[3821]: recycling face id 67 (slot 67)
+1389769144.269311 ccnd[3821]: accepted client fd=8 id=67
+1389769144.270235 ccnd[3821]: shutdown client fd=8 id=67
+1389769144.270248 ccnd[3821]: releasing face id 67 (slot 67)
+1389769144.276333 ccnd[3821]: accepted client fd=8 id=68
+1389769144.276912 ccnd[3821]: shutdown client fd=8 id=68
+1389769144.276925 ccnd[3821]: recycling face id 68 (slot 68)
+1389769144.337082 ccnd[3821]: accepted client fd=8 id=68
+1389769144.377753 ccnd[3821]: shutdown client fd=8 id=68
+1389769144.377771 ccnd[3821]: releasing face id 68 (slot 68)
+1389769144.380433 ccnd[3821]: accepted client fd=8 id=69
+1389769144.380591 ccnd[3821]: shutdown client fd=8 id=69
+1389769144.380600 ccnd[3821]: recycling face id 69 (slot 69)
+1389769144.390265 ccnd[3821]: accepted client fd=8 id=69
+1389769144.396350 ccnd[3821]: shutdown client fd=8 id=69
+1389769144.396365 ccnd[3821]: releasing face id 69 (slot 69)
+1389769144.398115 ccnd[3821]: accepted client fd=8 id=70
+1389769144.398495 ccnd[3821]: shutdown client fd=8 id=70
+1389769144.398509 ccnd[3821]: releasing face id 70 (slot 70)
+1389769144.404461 ccnd[3821]: accepted client fd=8 id=71
+1389769144.405063 ccnd[3821]: shutdown client fd=8 id=71
+1389769144.405087 ccnd[3821]: recycling face id 71 (slot 71)
+1389769144.405808 ccnd[3821]: accepted client fd=8 id=71
+1389769144.410786 ccnd[3821]: shutdown client fd=8 id=71
+1389769144.410801 ccnd[3821]: releasing face id 71 (slot 71)
+1389769144.414855 ccnd[3821]: accepted client fd=8 id=72
+1389769144.415451 ccnd[3821]: shutdown client fd=8 id=72
+1389769144.415464 ccnd[3821]: recycling face id 72 (slot 72)
+1389769144.419990 ccnd[3821]: accepted client fd=8 id=72
+1389769144.420134 ccnd[3821]: shutdown client fd=8 id=72
+1389769144.420146 ccnd[3821]: recycling face id 72 (slot 72)
+1389769145.447678 ccnd[3821]: accepted client fd=8 id=72
+1389769145.452298 ccnd[3821]: accepted datagram client id=73 (flags=0x41012) 127.0.0.1 port 63001
+1389769145.453912 ccnd[3821]: shutdown client fd=8 id=72
+1389769145.453923 ccnd[3821]: releasing face id 72 (slot 72)
+1389769145.523846 ccnd[3821]: accepted client fd=8 id=74
+1389769145.524463 ccnd[3821]: shutdown client fd=8 id=74
+1389769145.524476 ccnd[3821]: recycling face id 74 (slot 74)
+1389769146.737176 ccnd[3821]: accepted client fd=8 id=74
+1389769146.737245 ccnd[3821]: shutdown client fd=8 id=74
+1389769146.737254 ccnd[3821]: recycling face id 74 (slot 74)
+1389769146.738758 ccnd[3821]: accepted client fd=8 id=74
+1389769146.739084 ccnd[3821]: shutdown client fd=8 id=74
+1389769146.739095 ccnd[3821]: releasing face id 74 (slot 74)
+1389769146.748855 ccnd[3821]: accepted client fd=8 id=75
+1389769146.754457 ccnd[3821]: shutdown client fd=8 id=75
+1389769146.754472 ccnd[3821]: releasing face id 75 (slot 75)
+1389769146.755949 ccnd[3821]: accepted client fd=8 id=76
+1389769148.758230 ccnd[3821]: shutdown client fd=8 id=76
+1389769148.758320 ccnd[3821]: releasing face id 76 (slot 76)
+1389769148.761033 ccnd[3821]: accepted client fd=8 id=77
+1389769148.761584 ccnd[3821]: shutdown client fd=8 id=77
+1389769148.761596 ccnd[3821]: releasing face id 77 (slot 77)
+1389769148.767342 ccnd[3821]: accepted client fd=8 id=78
+1389769148.768002 ccnd[3821]: shutdown client fd=8 id=78
+1389769148.768016 ccnd[3821]: recycling face id 78 (slot 78)
+1389769148.768760 ccnd[3821]: accepted client fd=8 id=78
+1389769148.773026 ccnd[3821]: releasing face id 20 (slot 20)
+1389769148.773849 ccnd[3821]: shutdown client fd=8 id=78
+1389769148.773862 ccnd[3821]: releasing face id 78 (slot 78)
+1389769148.775537 ccnd[3821]: accepted client fd=8 id=79
+1389769148.776389 ccnd[3821]: shutdown client fd=8 id=79
+1389769148.776406 ccnd[3821]: recycling face id 79 (slot 79)
+1389769149.312675 ccnd[3821]: accepted client fd=8 id=79
+1389769149.646128 ccnd[3821]: shutdown client fd=8 id=79
+1389769149.646143 ccnd[3821]: recycling face id 79 (slot 79)
+1389769151.660726 ccnd[3821]: accepted client fd=8 id=79
+1389769151.662285 ccnd[3821]: accepted client fd=9 id=80
+1389769151.662303 ccnd[3821]: stopping (/tmp/.ccnd.sock.63000 gone)
+1389769151.662311 ccnd[3821]: exiting.
+1389769151.662324 ccnd[3821]: closing fd 3 while finalizing face 1
+1389769151.662331 ccnd[3821]: releasing face id 1 (slot 1)
+1389769151.662343 ccnd[3821]: closing fd 5 while finalizing face 3
+1389769151.662351 ccnd[3821]: releasing face id 3 (slot 3)
+1389769151.662363 ccnd[3821]: closing fd 7 while finalizing face 5
+1389769151.662370 ccnd[3821]: releasing face id 5 (slot 5)
+1389769151.662381 ccnd[3821]: closing fd 4 while finalizing face 2
+1389769151.662388 ccnd[3821]: releasing face id 2 (slot 2)
+1389769151.662399 ccnd[3821]: closing fd 6 while finalizing face 4
+1389769151.662406 ccnd[3821]: releasing face id 4 (slot 4)
+1389769151.662686 ccnd[3821]: releasing face id 64 (slot 64)
+1389769151.662698 ccnd[3821]: releasing face id 73 (slot 73)
+1389769151.662728 ccnd[3821]: closing fd 8 while finalizing face 79
+1389769151.662735 ccnd[3821]: releasing face id 79 (slot 79)
+1389769151.662763 ccnd[3821]: closing fd 9 while finalizing face 80
+1389769151.662771 ccnd[3821]: recycling face id 80 (slot 80)

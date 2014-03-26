@@ -1,0 +1,75 @@
+Buildfile: /home/ice/ccnx-0.8.1/javasrc/build.xml
+
+init:
+     [echo] Verifying Ant version is at least 1.8.0
+
+compile-main:
+
+compile-systemtest:
+
+compile-test:
+
+compile:
+
+jar:
+
+ccnd:
+     [echo] Running test ccnd on port 63000
+
+test-repo-structure:
+    [junit] Running org.ccnx.ccn.repo.RFSTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 1.753 sec
+    [junit] Running org.ccnx.ccn.repo.RepositoryInfoTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.039 sec
+
+test-repo-initial-policy:
+
+repo-start-repov2:
+     [echo] Running repo version 2
+
+repo-start-repov1:
+
+repo-start:
+
+test-repo-is-up:
+    [junit] Running org.ccnx.ccn.repo.RepoInitializationTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.757 sec
+
+repo:
+
+test-repo-name-responder:
+    [junit] Running org.ccnx.ccn.repo.MultiResponderNameEnumerationTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.867 sec
+    [junit] Running org.ccnx.ccn.repo.RepoNameEnumeratorTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 40.672 sec
+
+test-repo-initial-read:
+    [junit] Running org.ccnx.ccn.repo.RepoInitialReadTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 4.726 sec
+
+test-repo-io:
+    [junit] Running org.ccnx.ccn.repo.RepoIOTest
+    [junit] Tests run: 5, Failures: 0, Errors: 0, Time elapsed: 58.402 sec
+
+test-repo:
+
+test-protocol-without-repo:
+    [junit] Running org.ccnx.ccn.protocol.CCNTimeTest
+    [junit] Tests run: 12, Failures: 0, Errors: 0, Time elapsed: 0.183 sec
+    [junit] Running org.ccnx.ccn.protocol.ComponentTest
+    [junit] Tests run: 7, Failures: 0, Errors: 0, Time elapsed: 0.231 sec
+    [junit] Running org.ccnx.ccn.protocol.ContentNameTest
+    [junit] Tests run: 16, Failures: 0, Errors: 0, Time elapsed: 2.126 sec
+    [junit] Running org.ccnx.ccn.protocol.ContentObjectTest
+    [junit] Tests run: 3, Failures: 0, Errors: 0, Time elapsed: 0.244 sec
+    [junit] Running org.ccnx.ccn.protocol.ExcludeTest
+    [junit] Tests run: 13, Failures: 0, Errors: 0, Time elapsed: 0.043 sec
+    [junit] Running org.ccnx.ccn.protocol.InterestEndToEndTest
+    [junit] Tests run: 2, Failures: 0, Errors: 0, Time elapsed: 3.261 sec
+    [junit] Running org.ccnx.ccn.protocol.InterestTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 0.087 sec
+    [junit] Running org.ccnx.ccn.protocol.KeyLocatorTest
+    [junit] Tests run: 1, Failures: 0, Errors: 0, Time elapsed: 0.097 sec
+    [junit] Running org.ccnx.ccn.protocol.LastSegmentTest
+    [junit] Tests run: 6, Failures: 0, Errors: 0, Time elapsed: 2.103 sec
+    [junit] Running org.ccnx.ccn.protocol.LatestVersionTest

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-01-15T15:01:06</date>
+  <millis>1389769266963</millis>
+  <sequence>0</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 1: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:07</date>
+  <millis>1389769267129</millis>
+  <sequence>1</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 2: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:07</date>
+  <millis>1389769267133</millis>
+  <sequence>2</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 3: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:07</date>
+  <millis>1389769267305</millis>
+  <sequence>3</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 4: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:07</date>
+  <millis>1389769267312</millis>
+  <sequence>4</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 5: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:13</date>
+  <millis>1389769273520</millis>
+  <sequence>5</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 6: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:01:49</date>
+  <millis>1389769309240</millis>
+  <sequence>6</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.RepositoryFlowControl</class>
+  <method>startWrite</method>
+  <thread>1</thread>
+  <message>No response from a repository, cannot add name space : /repoTest/data3/=FD052D632533D7</message>
+</record>
+</log>

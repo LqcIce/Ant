@@ -1,0 +1,90 @@
+1389769178.933717 ccnr[4820]: CCNR_DEBUG=9 CCNR_DIRECTORY=./repo.1.dir CCNR_STATUS_PORT=
+1389769178.955892 ccnr[4820]: New repository private key saved in ./repo.1.dir/ccnx_repository_keystore
+1389769178.956054 ccnr[4820]: Bad stable mark - 
+1389769178.956080 ccnr[4820]: opened fd=5 file=./repo.1.dir/repoFile1
+1389769178.956093 ccnr[4820]: Repository file is indexed
+1389769178.959281 ccnr[4820]: SO_SNDBUF for fd 7 is 229376 (was 229376)
+1389769178.959311 ccnr[4820]: Creating new policy file.
+1389769178.963691 ccnr[4820]: Adding listener for policy namespace /
+1389769178.963703 ccnr[4820]: Adding listener for policy global prefix ccnx:/parc.com/csl/ccn/Repos
+1389769178.963732 ccnr[4820]: Sync.sync_start, CCNS_ENABLE=1,CCNS_DEBUG=INFO,CCNS_REPO_STORE=1,CCNS_STABLE_ENABLED=0,CCNS_FAUX_ERROR=0,CCNS_ACTIONS_PRIVATE=3,CCNS_HEARTBEAT_MICROS=200000,CCNS_ROOT_ADVISE_FRESH=4,CCNS_ROOT_ADVISE_LIFETIME=20,CCNS_NODE_FETCH_LIFETIME=4,CCNS_MAX_FETCH_BUSY=6,CCNS_MAX_COMPARES_BUSY=4,CCNS_DELTAS_LIMIT=0,CCNS_SYNC_SCOPE=2,defer_verification=0
+1389769178.963752 ccnr[4820]: Sync.SyncStartHeartbeat, slice enumerate started, 1
+1389769178.964217 ccnr[4820]: Sync.sync_notify_for_actions, all slice names seen
+1389769178.982799 ccnr[4820]: Sync.SyncHandleSlice, root#1, new root for slice, c952a19e4b0d3822c85283c84ae51507b5032236f3ce9f7a197e549b18aa63f3
+1389769178.982819 ccnr[4820]: Sync.SyncRegisterInterests, root#1, topo /Topo, prefix /root/beer, hash c952a19e4b0d3822c85283c84ae51507b5032236f3ce9f7a197e549b18aa63f3
+1389769178.982849 ccnr[4820]: Sync.SyncRegisterInterest, root#1, RootAdvise, /Topo/%C1.S.ra/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3
+1389769178.982874 ccnr[4820]: Sync.SyncRegisterInterest, root#1, NodeFetch, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3
+1389769178.982899 ccnr[4820]: Sync.SyncRegisterInterest, root#1, RootStats, /Topo/%C1.S.rs/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3
+1389769179.163775 ccnr[4820]: Sync.SyncStartSliceEnum, root#1, slice enum start, /root/beer
+1389769179.183489 ccnr[4820]: Sync.sync_notify_for_actions, root#1, slice enum done
+1389769179.451836 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.rs/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=FD052D631DB738/=00
+1389769179.565016 ccnr[4820]: Sync.UpdateAction, root#1, start, toAdd 512, current 0, hash 
+1389769179.565069 ccnr[4820]: Sync.SyncSendRootAdviseInterest, root#1, sent, /Topo/%C1.S.ra/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/...
+1389769179.565079 ccnr[4820]: Sync.$RootAdvise, root#1, interest sent (excl 0), hash#null
+1389769179.590124 ccnr[4820]: Sync.UpdateAction, root#1, done, 0.025 secs [0.022], 256 names, depth 2, hash 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769179.590134 ccnr[4820]: Sync.$Update, root#1, done (256), hash#null, hash#7f02a6a7
+1389769179.590178 ccnr[4820]: Sync.SyncSendRootAdviseInterest, root#1, sent, /Topo/%C1.S.ra/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=7F02A6A7F2CD4BFBAF6FA4E6A99532A55F626E0474AEE5CC211E4F8527EA802298
+1389769179.590186 ccnr[4820]: Sync.$RootAdvise, root#1, interest sent (excl 1), hash#7f02a6a7
+1389769180.456555 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.rs/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=FD052D631DC74C/=00
+1389769180.923364 ccnr[4820]: Sync.SyncInterestArrived, root#1, RootAdvise, empty remote hash
+1389769180.923382 ccnr[4820]: Sync.SyncInterestArrived, root#1, RootAdvise, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.923391 ccnr[4820]: Sync.$RootAdvise, root#1, interest arrived, hash#null
+1389769180.924036 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.ra/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/.../=7F02A6A7F2CD4BFBAF6FA4E6A99532A55F626E0474AEE5CC211E4F8527EA802298
+1389769180.924047 ccnr[4820]: Sync.$RootAdvise, root#1, reply sent, hash#null, hash#7f02a6a7
+1389769180.942325 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 0e259f0989440b15d27a0ddad0df131ce211a0c15fb018645a49e0df8a7740ff2f
+1389769180.942369 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.942380 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#0e259f09
+1389769180.943164 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=0E259F0989440B15D27A0DDAD0DF131CE211A0C15FB018645A49E0DF8A7740FF2F
+1389769180.943174 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#0e259f09
+1389769180.943193 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 0c40a4d4b6485bc8b9d291e73072b874610f6fead94a00c957f14e69cb0c6af6c7
+1389769180.943201 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.943208 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#0c40a4d4
+1389769180.943840 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=0C40A4D4B6485BC8B9D291E73072B874610F6FEAD94A00C957F14E69CB0C6AF6C7
+1389769180.943852 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#0c40a4d4
+1389769180.943868 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 0db698963c0e5e3dbdceb8ae6faf8cc661b3a0f2f816739a20696d9bd17be5e221
+1389769180.943876 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.943883 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#0db69896
+1389769180.944501 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=0DB698963C0E5E3DBDCEB8AE6FAF8CC661B3A0F2F816739A20696D9BD17BE5E221
+1389769180.944512 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#0db69896
+1389769180.944528 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 101719ba470d7457639ac33220c930e0bae68fa62d3f2f84d9290a00e40d9e9238
+1389769180.944536 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.944543 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#101719ba
+1389769180.945159 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=101719BA470D7457639AC33220C930E0BAE68FA62D3F2F84D9290A00E40D9E9238
+1389769180.945168 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#101719ba
+1389769180.945185 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 12e92df345607b1c95425342e009ac0fea15e1f6aade48ed60ba69d9db3966726b
+1389769180.945192 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.945199 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#12e92df3
+1389769180.945809 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=12E92DF345607B1C95425342E009AC0FEA15E1F6AADE48ED60BA69D9DB3966726B
+1389769180.945819 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#12e92df3
+1389769180.945835 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 0c92d74254ba6129568acb0c3aa5463a2f06ee395d2d094266ddbf92eafa5eae61
+1389769180.945842 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.945849 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#0c92d742
+1389769180.946452 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=0C92D74254BA6129568ACB0C3AA5463A2F06EE395D2D094266DDBF92EAFA5EAE61
+1389769180.946471 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#0c92d742
+1389769180.946487 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 0c7162ff894131bd65805bd63ebec786128f3f6f6802501e15a0884f5ec3208ec2
+1389769180.946495 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.946502 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#0c7162ff
+1389769180.947112 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/%0Cqb=FF894131BD65805BD63EBEC786128F3F6F6802501E15A0884F5EC3208EC2
+1389769180.947121 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#0c7162ff
+1389769180.947151 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 1600d51478b562e36c4424b55c22e203c52663def6eee3a525171d026b65582d73
+1389769180.947159 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.947166 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#1600d514
+1389769180.947811 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=1600D51478B562E36C4424B55C22E203C52663DEF6EEE3A525171D026B65582D73
+1389769180.947823 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#1600d514
+1389769180.947839 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, remote hash, 04e0732f9413a1a14427ea69623a0d990ed4b940af62a38c7300d9e08c8111db48
+1389769180.947846 ccnr[4820]: Sync.SyncInterestArrived, root#1, NodeFetch, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769180.947854 ccnr[4820]: Sync.$NodeFetch, root#1, interest arrived, hash#04e0732f
+1389769180.948457 ccnr[4820]: Sync.SyncInterestArrived, root#1, reply sent, /Topo/%C1.S.nf/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=04E0732F9413A1A14427EA69623A0D990ED4B940AF62A38C7300D9E08C8111DB48
+1389769180.948467 ccnr[4820]: Sync.$NodeFetch, root#1, reply sent, hash#04e0732f
+1389769181.737669 ccnr[4820]: Sync.SyncInterestArrived, root#1, RootAdvise, remote hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769181.737688 ccnr[4820]: Sync.SyncInterestArrived, root#1, RootAdvise, local hash, 7f02a6a7f2cd4bfbaf6fa4e6a99532a55f626e0474aee5cc211e4f8527ea802298
+1389769181.737698 ccnr[4820]: Sync.$RootAdvise, root#1, interest arrived, hash#7f02a6a7
+1389769181.737706 ccnr[4820]: Sync.SyncInterestArrived, root#1, RootAdvise, ignored (same hash)
+1389769182.572215 ccnr[4820]: Sync.SyncRootAdviseResponse, root#1, timeout, 2.982 secs, /Topo/%C1.S.ra/%C9R=A19E4B0D3822C85283C84AE51507B5032236F3CE9F7A197E549B18AA63F3/=7F02A6A7F2CD4BFBAF6FA4E6A99532A55F626E0474AEE5CC211E4F8527EA802298
+1389769182.572250 ccnr[4820]: lost connection to ccnd
+1389769182.572258 ccnr[4820]: exiting.
+1389769182.572268 ccnr[4820]: shutdown client fd=5
+1389769182.572278 ccnr[4820]: shutdown client fd=7
+1389769182.572313 ccnr[4820]: shutdown client fd=0
+1389769182.572511 ccnr[4820]: Sync.sync_stop
+1389769182.572972 ccnr[4820]: Index marked stable - 1153001

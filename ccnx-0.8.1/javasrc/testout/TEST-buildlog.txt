@@ -1,0 +1,305 @@
+============= conf.mk =============
+# generated Linux ice-Founder-PC 3.2.0-24-generic #37-Ubuntu SMP Wed Apr 25 08:43:22 UTC 2012
+#
+#
+#
+SHEXT=so
+SHLIBNAME=libccn.$(SHEXT).1
+SHLIBDEPS=
+SHARED_LD_FLAGS = -shared --whole-archive -soname=$(SHLIBNAME) -lc
+PLATCFLAGS=-fPIC
+CWARNFLAGS = -Wall -Wpointer-arith -Wreturn-type -Wstrict-prototypes
+CPREFLAGS= -D_REENTRANT
+COPT = -g
+INSTALL_BASE = /usr/local
+INSTALL_INCLUDE = $(INSTALL_BASE)/include
+INSTALL_LIB = $(INSTALL_BASE)/lib
+INSTALL_BIN = $(INSTALL_BASE)/bin
+PCAP_PROGRAMS = ccndumppcap
+RESOLV_LIBS = -lresolv
+ANT = /usr/bin/ant
+CP = cp
+INSTALL = install
+LS = /bin/ls
+RM = rm -f
+SH = /bin/sh
+MKDEP = gcc -MM
+BUILD_JAVA = true
+DINST_BIN = $(DESTDIR)$(INSTALL_BIN)
+DINST_INC = $(DESTDIR)$(INSTALL_INCLUDE)
+DINST_LIB = $(DESTDIR)$(INSTALL_LIB)
+===================================
+test -d include/ccn || (test -d ../include/ccn && mkdir -p include && ln -s ../../include/ccn include/ccn)
+for i in lib ccnd sync ccnr libexec cmd util tests exttests; do         \
+	  (cd "$i" && pwd && :>> depend.mk && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i config_subdir) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc/lib
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+/home/ice/ccnx-0.8.1/csrc/ccnd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+/home/ice/ccnx-0.8.1/csrc/sync
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+/home/ice/ccnx-0.8.1/csrc/ccnr
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+/home/ice/ccnx-0.8.1/csrc/libexec
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+/home/ice/ccnx-0.8.1/csrc/cmd
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+/home/ice/ccnx-0.8.1/csrc/util
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/util'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/util'
+/home/ice/ccnx-0.8.1/csrc/tests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+/home/ice/ccnx-0.8.1/csrc/exttests
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+make[1]: 没有什么可以做的为 `config_subdir'。
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+for i in csrc schema `cat local.subdirs 2>/dev/null || :`; do         \
+	  (cd "$i" && pwd && make -f ../csrc/conf.mk -f Makefile default) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc'
+test -d include/ccn || (test -d ../include/ccn && mkdir -p include && ln -s ../../include/ccn include/ccn)
+for i in lib ccnd sync ccnr libexec cmd util tests exttests; do         \
+	  (cd "$i" && pwd && :>> depend.mk && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i default) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc/lib
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+/home/ice/ccnx-0.8.1/csrc/ccnd
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+/home/ice/ccnx-0.8.1/csrc/sync
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+/home/ice/ccnx-0.8.1/csrc/ccnr
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+/home/ice/ccnx-0.8.1/csrc/libexec
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+/home/ice/ccnx-0.8.1/csrc/cmd
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+/home/ice/ccnx-0.8.1/csrc/util
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/util'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/util'
+/home/ice/ccnx-0.8.1/csrc/tests
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+/home/ice/ccnx-0.8.1/csrc/exttests
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc'
+/home/ice/ccnx-0.8.1/schema
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/schema'
+for i in validation; do         \
+	  (cd "$i" && pwd && make default) || break;			\
+	done
+/home/ice/ccnx-0.8.1/schema/validation
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/schema/validation'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/schema/validation'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/schema'
+for i in doc/technical doc/manpages javasrc apps; do \
+	  (cd "$i" && pwd && make default) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/doc/technical
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/doc/technical'
+: To build the documentation: make documentation
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/doc/technical'
+/home/ice/ccnx-0.8.1/doc/manpages
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/doc/manpages'
+: To build the documentation: make documentation
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/doc/manpages'
+/home/ice/ccnx-0.8.1/javasrc
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/javasrc'
+/usr/bin/ant -k -DTEST_PORT=${CCN_LOCAL_PORT_BASE:-63000} jar
+Buildfile: /home/ice/ccnx-0.8.1/javasrc/build.xml
+
+init:
+     [echo] Verifying Ant version is at least 1.8.0
+
+compile-main:
+
+compile-systemtest:
+
+compile-test:
+
+compile:
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 3 seconds
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/javasrc'
+/home/ice/ccnx-0.8.1/apps
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps'
+test -d include/ccn || (test -d ../csrc/include/ccn && ln -s ../csrc/include)
+for i in HttpProxy ccnChat ccnFileProxy `cat local.subdirs 2>/dev/null || :`; do           \
+	    if [ -f "$i/dir.mk" ]; then  \
+	        (cd "$i" && pwd && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk DINST_INC=/usr/local/include DINST_LIB=/usr/local/lib DINST_BIN=/usr/local/bin "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i default) || exit 1;	\
+	    else			  \
+	        (cd "$i" && pwd && make -f ../conf.mk -f Makefile DINST_INC=/usr/local/include DINST_LIB=/usr/local/lib DINST_BIN=/usr/local/bin default) || exit 1;	\
+	    fi                            \
+	done
+/home/ice/ccnx-0.8.1/apps/HttpProxy
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/HttpProxy'
+make[2]: 没有什么可以做的为 `default'。
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/HttpProxy'
+/home/ice/ccnx-0.8.1/apps/ccnChat
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+/usr/bin/ant -k jar
+Buildfile: /home/ice/ccnx-0.8.1/apps/ccnChat/build.xml
+
+compile:
+    [javac] /home/ice/ccnx-0.8.1/apps/ccnChat/build.xml:61: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+/home/ice/ccnx-0.8.1/apps/ccnFileProxy
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+/usr/bin/ant -k jar
+Buildfile: /home/ice/ccnx-0.8.1/apps/ccnFileProxy/build.xml
+
+compile:
+    [javac] /home/ice/ccnx-0.8.1/apps/ccnFileProxy/build.xml:61: warning: 'includeantruntime' was not set, defaulting to build.sysclasspath=last; set to false for repeatable builds
+
+jar:
+
+BUILD SUCCESSFUL
+Total time: 0 seconds
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/apps'
+mkdir -p ./lib ./bin
+test -d ./include || ln -s ./csrc/include
+ib=`pwd` && (cd csrc && make -f ../csrc/conf.mk -f Makefile install DINST_BIN=$ib/bin DINST_INC=$ib/include DINST_LIB=$ib/lib)
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc'
+test -d include/ccn || (test -d ../include/ccn && mkdir -p include && ln -s ../../include/ccn include/ccn)
+for i in lib ccnd sync ccnr libexec cmd util tests exttests; do         \
+	  (cd "$i" && pwd && :>> depend.mk && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i install) || exit 1;	\
+	done
+/home/ice/ccnx-0.8.1/csrc/lib
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+mkdir -p /home/ice/ccnx-0.8.1/include/ccn
+for i in `cd ../include/ccn && echo *.h`; do                \
+	    cmp -s ../include/ccn/$i /home/ice/ccnx-0.8.1/include/ccn/$i || \
+	        cp ../include/ccn/$i /home/ice/ccnx-0.8.1/include/ccn/$i || \
+	        exit 1;                                             \
+	done
+for i in libccn.a ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/lib'
+/home/ice/ccnx-0.8.1/csrc/ccnd
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in ccnd ccndsmoketest  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnd'
+/home/ice/ccnx-0.8.1/csrc/sync
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+for i in libccnsync.a ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/sync'
+/home/ice/ccnx-0.8.1/csrc/ccnr
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in ccnr ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/ccnr'
+/home/ice/ccnx-0.8.1/csrc/libexec
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in ccndc ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/libexec'
+/home/ice/ccnx-0.8.1/csrc/cmd
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in ccn_ccnbtoxml ccn_splitccnb ccnc ccndumpnames ccnnamelist ccnrm ccnls ccnslurp ccnbx ccncat ccnbasicconfig ccnsendchunks ccncatchunks ccncatchunks2 ccnpoke ccnpeek ccnant ccnhexdumpdata ccnseqwriter ccnsimplecat ccnfilewatch ccnguestprefix ccninitkeystore ccninitaeskeystore ccnlibtest ccnsyncwatch ccnsyncslice ccn_xmltoccnb ccndumppcap ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/cmd'
+/home/ice/ccnx-0.8.1/csrc/util
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/util'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in ccndstart ccndstop ccndstatus ccntestloop ccndlogging ccnget ccnput ccnd-autoconfig ccnd-publish-local-info ccnrpolicyedit ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/util'
+/home/ice/ccnx-0.8.1/csrc/tests
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/tests'
+/home/ice/ccnx-0.8.1/csrc/exttests
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc/exttests'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/csrc'
+ib=`pwd` && (cd javasrc && make -f ../csrc/conf.mk -f Makefile install DINST_BIN=$ib/bin DINST_INC=$ib/include DINST_LIB=$ib/lib)
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/javasrc'
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/javasrc'
+test -d /home/ice/ccnx-0.8.1/lib 
+for i in ccn.jar lib/bcprov-jdk16-143.jar lib/kxml2-2.3.0.jar `find lib/bcprov-jdk15-143.jar -print 2>/dev/null` ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+test -d /home/ice/ccnx-0.8.1/bin
+# Using -R on . dir to preserve sym links
+cp -R tools/. /home/ice/ccnx-0.8.1/bin
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/javasrc'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/javasrc'
+ib=`pwd` && (cd apps && make -f ../csrc/conf.mk -f Makefile install DINST_BIN=$ib/bin DINST_INC=$ib/include DINST_LIB=$ib/lib)
+make[1]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps'
+test -d include/ccn || (test -d ../csrc/include/ccn && ln -s ../csrc/include)
+for i in HttpProxy ccnChat ccnFileProxy `cat local.subdirs 2>/dev/null || :`; do           \
+	    if [ -f "$i/dir.mk" ]; then  \
+	        (cd "$i" && pwd && make -f ../conf.mk -f dir.mk -f ../subr.mk -f depend.mk DINST_INC=/home/ice/ccnx-0.8.1/include DINST_LIB=/home/ice/ccnx-0.8.1/lib DINST_BIN=/home/ice/ccnx-0.8.1/bin "COPT=-g" CFLAGS='$(REAL_CFLAGS)' SRCDIR=..//$i install) || exit 1;	\
+	    else			  \
+	        (cd "$i" && pwd && make -f ../conf.mk -f Makefile DINST_INC=/home/ice/ccnx-0.8.1/include DINST_LIB=/home/ice/ccnx-0.8.1/lib DINST_BIN=/home/ice/ccnx-0.8.1/bin install) || exit 1;	\
+	    fi                            \
+	done
+/home/ice/ccnx-0.8.1/apps/HttpProxy
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/HttpProxy'
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+for i in  ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/bin; done
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/HttpProxy'
+/home/ice/ccnx-0.8.1/apps/ccnChat
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+make[3]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+test -d /home/ice/ccnx-0.8.1/lib 
+for i in ccnChat.jar ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+test -d /home/ice/ccnx-0.8.1/bin
+# Using -R on . dir to preserve sym links
+cp -R tools/. /home/ice/ccnx-0.8.1/bin
+make[3]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnChat'
+/home/ice/ccnx-0.8.1/apps/ccnFileProxy
+make[2]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+make[3]: 正在进入目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+test -d /home/ice/ccnx-0.8.1/lib 
+for i in ccnFileProxy.jar ""; do test -z "$i" || install $i /home/ice/ccnx-0.8.1/lib; done
+test -d /home/ice/ccnx-0.8.1/bin
+# Using -R on . dir to preserve sym links
+cp -R tools/. /home/ice/ccnx-0.8.1/bin
+make[3]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+make[2]:正在离开目录 `/home/ice/ccnx-0.8.1/apps/ccnFileProxy'
+make[1]:正在离开目录 `/home/ice/ccnx-0.8.1/apps'

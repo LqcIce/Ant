@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-01-15T15:00:13</date>
+  <millis>1389769213604</millis>
+  <sequence>0</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 1: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:13</date>
+  <millis>1389769213761</millis>
+  <sequence>1</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 2: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:13</date>
+  <millis>1389769213765</millis>
+  <sequence>2</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 3: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+</log>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210176</millis>
+  <sequence>0</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 1: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210338</millis>
+  <sequence>1</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 2: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210342</millis>
+  <sequence>2</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 3: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210355</millis>
+  <sequence>3</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.LogStructRepoStore</class>
+  <method>initialize</method>
+  <thread>1</thread>
+  <message>Starting repository; repository root is: /home/ice/ccnx-0.8.1/javasrc/testout/repotest</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210666</millis>
+  <sequence>4</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 4: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:10</date>
+  <millis>1389769210681</millis>
+  <sequence>5</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 5: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211007</millis>
+  <sequence>6</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.LogStructRepoStore</class>
+  <method>initialize</method>
+  <thread>1</thread>
+  <message>Starting repository; repository root is: /home/ice/ccnx-0.8.1/javasrc/testout/repotest</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211018</millis>
+  <sequence>7</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 6: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211028</millis>
+  <sequence>8</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 7: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211074</millis>
+  <sequence>9</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.LogStructRepoStore</class>
+  <method>initialize</method>
+  <thread>1</thread>
+  <message>Starting repository; repository root is: /home/ice/ccnx-0.8.1/javasrc/testout/repotest</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211085</millis>
+  <sequence>10</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 8: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211093</millis>
+  <sequence>11</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 9: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211124</millis>
+  <sequence>12</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.LogStructRepoStore</class>
+  <method>initialize</method>
+  <thread>1</thread>
+  <message>Starting repository; repository root is: /home/ice/ccnx-0.8.1/javasrc/testout/repotest2</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211211</millis>
+  <sequence>13</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 10: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211224</millis>
+  <sequence>14</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 11: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211287</millis>
+  <sequence>15</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.BasicPolicy</class>
+  <method>update</method>
+  <thread>1</thread>
+  <message>Bad version in policy file: foobar</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211290</millis>
+  <sequence>16</sequence>
+  <logger>ccnx.Repo</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.repo.LogStructRepoStore</class>
+  <method>initialize</method>
+  <thread>1</thread>
+  <message>Starting repository; repository root is: /home/ice/ccnx-0.8.1/javasrc/testout/repotest</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211302</millis>
+  <sequence>17</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 12: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211312</millis>
+  <sequence>18</sequence>
+  <logger>ccnx.NetManager</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.impl.CCNNetworkManager</class>
+  <method>&lt;init&gt;</method>
+  <thread>1</thread>
+  <message>NetworkManager 13: Non-standard CCN agent port 63000 per property ccn.agent.port</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211389</millis>
+  <sequence>19</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 4: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211391</millis>
+  <sequence>20</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 4: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211396</millis>
+  <sequence>21</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 8: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211397</millis>
+  <sequence>22</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 8: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211399</millis>
+  <sequence>23</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 6: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211400</millis>
+  <sequence>24</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 6: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211401</millis>
+  <sequence>25</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 12: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211403</millis>
+  <sequence>26</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 12: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211404</millis>
+  <sequence>27</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 10: Called unregisterFilter on a closed handle</message>
+</record>
+<record>
+  <date>2014-01-15T15:00:11</date>
+  <millis>1389769211405</millis>
+  <sequence>28</sequence>
+  <logger>ccnx.Default</logger>
+  <level>WARNING</level>
+  <class>org.ccnx.ccn.CCNHandle</class>
+  <method>unregisterFilter</method>
+  <thread>3</thread>
+  <message>CCNHandle 10: Called unregisterFilter on a closed handle</message>
+</record>
+</log>

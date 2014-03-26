@@ -1,0 +1,29 @@
+ice-Founder-PC ccnd[5014] local port 63001 api 8002 start 1389769197.633148 now 1389769198.912661
+Content items: 1226 accessioned, 100 stored, 0 stale, 0 sparse, 0 duplicate, 1226 sent
+Interests: 1259 names, 0 pending, 11 propagating, 1240 noted
+Interest totals: 1240 accepted, 0 dropped, 1237 sent, 0 stuffed
+Faces
+ face: 0 flags: 0xc pending: 0
+ face: 1 flags: 0x400c pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63001
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63001
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63001
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63001
+ face: 6 flags: 0xc pending: 0 activity: 418
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	  1179 / 574		        0 / 0		        0 / 0
+ face: 6	4346349 / 69090		      965 / 973		        0 / 0
+Forwarding
+ ccnx:/ccnx/yM%0BpCnL%C8B%BAJ=FF918140209E2DBD1DB42E8B45A78389F1D03E1F82 face: 0 flags: 0x17 expires: 2147483647
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/parc.com/csl/ccn/Repos face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483647
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood/%C1.M.SRV/repository face: 6 flags: 0x3 expires: 2000000000
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483647
+

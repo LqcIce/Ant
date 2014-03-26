@@ -1,0 +1,1 @@
+-rw-rw-r-- 1 ice ice 5502086  1月 15 14:59 ./testrepo2/repoFile1

@@ -1,0 +1,74 @@
+1389769144.421190 ccnd[4257]: CCND_DEBUG=1 CCND_CAP=2147483647
+1389769144.421357 ccnd[4257]: listening on /tmp/.ccnd.sock.63001
+1389769144.421394 ccnd[4257]: accepting ipv4 datagrams on fd 4 rcvbuf 229376
+1389769144.421417 ccnd[4257]: accepting ipv4 connections on fd 5
+1389769144.421439 ccnd[4257]: accepting ipv6 datagrams on fd 6 rcvbuf 229376
+1389769144.421459 ccnd[4257]: accepting ipv6 connections on fd 7
+1389769145.421102 ccnd[4257]: accepted client fd=8 id=6
+1389769145.421191 ccnd[4257]: shutdown client fd=8 id=6
+1389769145.421212 ccnd[4257]: recycling face id 6 (slot 6)
+1389769145.424866 ccnd[4257]: accepted client fd=8 id=6
+1389769145.439270 ccnd[4257]: accepted datagram client id=7 (flags=0x41012) 127.0.0.1 port 63000
+1389769145.445564 ccnd[4257]: shutdown client fd=8 id=6
+1389769145.445579 ccnd[4257]: releasing face id 6 (slot 6)
+1389769145.455952 ccnd[4257]: accepted client fd=8 id=8
+1389769145.461916 ccnd[4257]: accepted datagram client id=9 (flags=0x41012) 127.0.0.1 port 63002
+1389769145.464026 ccnd[4257]: shutdown client fd=8 id=8
+1389769145.464040 ccnd[4257]: releasing face id 8 (slot 8)
+1389769145.490737 ccnd[4257]: accepted client fd=8 id=10
+1389769145.495918 ccnd[4257]: accepted datagram client id=11 (flags=0x41012) 127.0.0.1 port 63003
+1389769145.497577 ccnd[4257]: shutdown client fd=8 id=10
+1389769145.497590 ccnd[4257]: releasing face id 10 (slot 10)
+1389769145.525749 ccnd[4257]: accepted client fd=8 id=12
+1389769145.526079 ccnd[4257]: shutdown client fd=8 id=12
+1389769145.526091 ccnd[4257]: recycling face id 12 (slot 12)
+1389769148.791236 ccnd[4257]: accepted client fd=8 id=12
+1389769148.791335 ccnd[4257]: CCND_DEBUG=71
+1389769148.000000 ccnd[4257]: 63001 ____________________ Wed Jan 15 14:59:08 2014
+1389769148.791359 ccnd[4257]: shutdown client fd=8 id=12
+1389769148.791762 ccnd[4257]: recycling face id 12 (slot 12)
+1389769148.820291 ccnd[4257]: debug.4180 interest_from 9 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2 (67 bytes,scope=2,sim=E1BB43C3) A2B12A-10A2-000A-BCCE-8D02D8
+1389769149.310445 ccnd[4257]: accepted client fd=8 id=12
+1389769149.310492 ccnd[4257]: debug.4180 interest_from 12 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2 (51 bytes,scope=2,i=607,sim=E1BB43C3)
+1389769149.310521 ccnd[4257]: debug.3324 interest_to 11 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2 (67 bytes,scope=2,i=607,sim=E1BB43C3) 794D0B-10A1-000C-BD4F-43247B
+1389769149.310570 ccnd[4257]: debug.3324 interest_to 9 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2 (67 bytes,scope=2,i=607,sim=E1BB43C3) 794D0B-10A1-000C-BD4F-43247B
+1389769149.310600 ccnd[4257]: debug.3324 interest_to 7 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2 (67 bytes,scope=2,i=607,sim=E1BB43C3) 794D0B-10A1-000C-BD4F-43247B
+1389769149.310796 ccnd[4257]: debug.4492 content_from 11 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2/stuff/=05AE97CD4CC5FAC6FE98C901771F7FAF78651E7014E790E60059A4F5C920D41E (413 bytes)
+1389769149.310840 ccnd[4257]: debug.1550 content_to 9 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2/stuff/=05AE97CD4CC5FAC6FE98C901771F7FAF78651E7014E790E60059A4F5C920D41E (413 bytes)
+1389769149.310876 ccnd[4257]: debug.1550 content_to 12 ccnx:/test_scope2_K6hFZJtX_ZSRayKH/scope2/stuff/=05AE97CD4CC5FAC6FE98C901771F7FAF78651E7014E790E60059A4F5C920D41E (413 bytes)
+1389769149.311004 ccnd[4257]: shutdown client fd=8 id=12
+1389769149.311016 ccnd[4257]: releasing face id 12 (slot 12)
+1389769149.615964 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test (91 bytes,aok=0x1,i=14,sim=65B80F81,e=[long,ccnls,happy,locotcp,child_selector,test_new_provider])
+1389769150.732458 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/576 (36 bytes,c=0:1,i=599,sim=2311137D)
+1389769150.732486 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/577 (36 bytes,c=0:1,i=600,sim=662569A5)
+1389769150.732504 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/578 (36 bytes,c=0:1,i=601,sim=0D7F4785)
+1389769150.732521 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/579 (36 bytes,c=0:1,i=602,sim=ECC9D1C9)
+1389769150.732537 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/580 (36 bytes,c=0:1,i=603,sim=A0EA6F90)
+1389769150.732563 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/581 (36 bytes,c=0:1,i=604,sim=9799283D)
+1389769150.732580 ccnd[4257]: debug.3514 interest_expiry 9 ccnx:/test/long/jot/582 (36 bytes,c=0:1,i=605,sim=ACA46ED0)
+1389769150.756768 ccnd[4257]: debug.3514 interest_expiry 7 ccnx:/9de1ce24367c918683a8f34239fc920ccd977588 (93 bytes,aok=0x1,i=606,sim=C18AD7F4,e=[R=D01B239EDAAD6613219FAE55310DF695CEE8719EE7574DE031ACBE14CA376A])
+1389769151.655189 ccnd[4257]: accepted client fd=8 id=13
+1389769151.655239 ccnd[4257]: CCND_DEBUG=1
+1389769151.655266 ccnd[4257]: shutdown client fd=8 id=13
+1389769151.655276 ccnd[4257]: recycling face id 13 (slot 13)
+1389769151.665239 ccnd[4257]: accepted client fd=8 id=13
+1389769151.666794 ccnd[4257]: accepted client fd=9 id=14
+1389769151.666811 ccnd[4257]: stopping (/tmp/.ccnd.sock.63001 gone)
+1389769151.666819 ccnd[4257]: exiting.
+1389769151.666831 ccnd[4257]: closing fd 3 while finalizing face 1
+1389769151.666839 ccnd[4257]: releasing face id 1 (slot 1)
+1389769151.666851 ccnd[4257]: closing fd 5 while finalizing face 3
+1389769151.666859 ccnd[4257]: releasing face id 3 (slot 3)
+1389769151.666871 ccnd[4257]: closing fd 7 while finalizing face 5
+1389769151.666878 ccnd[4257]: releasing face id 5 (slot 5)
+1389769151.666890 ccnd[4257]: closing fd 4 while finalizing face 2
+1389769151.666897 ccnd[4257]: releasing face id 2 (slot 2)
+1389769151.666908 ccnd[4257]: closing fd 6 while finalizing face 4
+1389769151.666915 ccnd[4257]: releasing face id 4 (slot 4)
+1389769151.667093 ccnd[4257]: releasing face id 7 (slot 7)
+1389769151.667104 ccnd[4257]: releasing face id 9 (slot 9)
+1389769151.667113 ccnd[4257]: releasing face id 11 (slot 11)
+1389769151.667140 ccnd[4257]: closing fd 8 while finalizing face 13
+1389769151.667148 ccnd[4257]: releasing face id 13 (slot 13)
+1389769151.667175 ccnd[4257]: closing fd 9 while finalizing face 14
+1389769151.667184 ccnd[4257]: recycling face id 14 (slot 14)

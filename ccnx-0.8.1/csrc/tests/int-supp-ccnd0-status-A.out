@@ -1,0 +1,32 @@
+ice-Founder-PC ccnd[3821] local port 63000 api 8002 start 1389769130.304360 now 1389769136.549121
+Content items: 26 accessioned, 26 stored, 0 stale, 0 sparse, 0 duplicate, 32 sent
+Interests: 44 names, 4 pending, 5 propagating, 31 noted
+Interest totals: 43 accepted, 0 dropped, 28 sent, 0 stuffed
+Faces
+ face: 0 flags: 0xc pending: 2
+ face: 1 flags: 0x400c pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63000
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63000
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63000
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63000
+ face: 20 flags: 0x412 pending: 0 activity: 1 remote: 10.211.55.8:9695 via: 2
+ face: 24 flags: 0xc pending: 0 activity: 8
+ face: 28 flags: 0x1014 pending: 2 activity: 2 remote: 127.0.0.1:60247
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	   332 / 259		        0 / 1		        0 / 0
+ face: 20	     0 / 0		        0 / 0		        0 / 0
+ face: 24	  1246 / 45		        0 / 0		        0 / 0
+ face: 28	   133 / 0		        0 / 0		        0 / 1
+Forwarding
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/ face: 27 flags: 0x3 expires: 2147483642
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483642
+ ccnx:/test/long/jot face: 24 flags: 0x3 expires: 1999999995
+ ccnx:/test/locotcp face: 25 flags: 0x3 expires: 1999999995
+ ccnx:/ccnx/Gm=DE9C3BC2C58596E1155C74A6B5CFF761B11A73F9FBFB17FF1B4BE2C71DEA face: 0 flags: 0x17 expires: 2147483642
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483642
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483642
+

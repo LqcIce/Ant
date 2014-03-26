@@ -1,0 +1,56 @@
+1389769177.856708 ccnd[4806]: CCND_DEBUG=1 CCND_CAP=2147483647
+1389769177.856868 ccnd[4806]: listening on /tmp/.ccnd.sock.63002
+1389769177.856907 ccnd[4806]: accepting ipv4 datagrams on fd 4 rcvbuf 229376
+1389769177.856930 ccnd[4806]: accepting ipv4 connections on fd 5
+1389769177.856953 ccnd[4806]: accepting ipv6 datagrams on fd 6 rcvbuf 229376
+1389769177.856975 ccnd[4806]: accepting ipv6 connections on fd 7
+1389769178.857135 ccnd[4806]: accepted client fd=8 id=6
+1389769178.857343 ccnd[4806]: shutdown client fd=8 id=6
+1389769178.857356 ccnd[4806]: recycling face id 6 (slot 6)
+1389769178.883035 ccnd[4806]: accepted client fd=8 id=6
+1389769178.898448 ccnd[4806]: accepted datagram client id=7 (flags=0x41012) 127.0.0.1 port 63001
+1389769178.904654 ccnd[4806]: shutdown client fd=8 id=6
+1389769178.904667 ccnd[4806]: releasing face id 6 (slot 6)
+1389769178.906825 ccnd[4806]: accepted client fd=8 id=8
+1389769178.914943 ccnd[4806]: shutdown client fd=8 id=8
+1389769178.914961 ccnd[4806]: releasing face id 8 (slot 8)
+1389769180.460037 ccnd[4806]: accepted client fd=8 id=9
+1389769180.516997 ccnd[4806]: accepted client fd=9 id=10
+1389769180.539922 ccnd[4806]: shutdown client fd=8 id=9
+1389769180.539947 ccnd[4806]: releasing face id 9 (slot 9)
+1389769180.543048 ccnd[4806]: accepted client fd=8 id=11
+1389769180.556570 ccnd[4806]: shutdown client fd=8 id=11
+1389769180.556601 ccnd[4806]: releasing face id 11 (slot 11)
+1389769181.561588 ccnd[4806]: accepted client fd=8 id=12
+1389769181.562758 ccnd[4806]: shutdown client fd=8 id=12
+1389769181.562771 ccnd[4806]: releasing face id 12 (slot 12)
+1389769182.566626 ccnd[4806]: accepted client fd=8 id=13
+1389769182.567723 ccnd[4806]: shutdown client fd=8 id=13
+1389769182.567739 ccnd[4806]: releasing face id 13 (slot 13)
+1389769182.573818 ccnd[4806]: accepted client fd=8 id=14
+1389769182.812259 ccnd[4806]: shutdown client fd=8 id=14
+1389769182.812296 ccnd[4806]: releasing face id 14 (slot 14)
+1389769182.813950 ccnd[4806]: accepted client fd=8 id=15
+1389769183.663462 ccnd[4806]: shutdown client fd=8 id=15
+1389769183.663487 ccnd[4806]: releasing face id 15 (slot 15)
+1389769183.664496 ccnd[4806]: accepted client fd=8 id=16
+1389769183.666063 ccnd[4806]: accepted client fd=10 id=17
+1389769183.666082 ccnd[4806]: stopping (/tmp/.ccnd.sock.63002 gone)
+1389769183.666090 ccnd[4806]: exiting.
+1389769183.666102 ccnd[4806]: closing fd 3 while finalizing face 1
+1389769183.666110 ccnd[4806]: releasing face id 1 (slot 1)
+1389769183.666123 ccnd[4806]: closing fd 5 while finalizing face 3
+1389769183.666130 ccnd[4806]: releasing face id 3 (slot 3)
+1389769183.666143 ccnd[4806]: closing fd 7 while finalizing face 5
+1389769183.666150 ccnd[4806]: releasing face id 5 (slot 5)
+1389769183.666161 ccnd[4806]: closing fd 4 while finalizing face 2
+1389769183.666169 ccnd[4806]: releasing face id 2 (slot 2)
+1389769183.666180 ccnd[4806]: closing fd 6 while finalizing face 4
+1389769183.666187 ccnd[4806]: releasing face id 4 (slot 4)
+1389769183.666368 ccnd[4806]: releasing face id 7 (slot 7)
+1389769183.666383 ccnd[4806]: closing fd 8 while finalizing face 16
+1389769183.666391 ccnd[4806]: releasing face id 16 (slot 16)
+1389769183.666416 ccnd[4806]: closing fd 10 while finalizing face 17
+1389769183.666424 ccnd[4806]: recycling face id 17 (slot 17)
+1389769183.667477 ccnd[4806]: closing fd 9 while finalizing face 10
+1389769183.667498 ccnd[4806]: releasing face id 10 (slot 10)

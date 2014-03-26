@@ -1,0 +1,176 @@
+ice-Founder-PC ccnd[3955] local port 63004 api 8002 start 1389769135.353588 now 1389769136.541122
+Content items: 3 accessioned, 3 stored, 0 stale, 0 sparse, 0 duplicate, 3 sent
+Interests: 18 names, 76 pending, 2 propagating, 84 noted
+Interest totals: 84 accepted, 0 dropped, 5 sent, 0 stuffed
+Faces
+ face: 0 flags: 0xc pending: 1
+ face: 1 flags: 0x400c pending: 0
+ face: 2 flags: 0x5012 pending: 0 local: 0.0.0.0:63004
+ face: 3 flags: 0x5010 pending: 0 local: 0.0.0.0:63004
+ face: 4 flags: 0x4042 pending: 0 local: [::]:63004
+ face: 5 flags: 0x4040 pending: 0 local: [::]:63004
+ face: 7 flags: 0x1410 pending: 0 remote: 127.0.0.1:63000
+ face: 8 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:59780 via: 2
+ face: 9 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:54896 via: 2
+ face: 10 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:34968 via: 2
+ face: 11 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:43312 via: 2
+ face: 12 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:35132 via: 2
+ face: 13 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:45783 via: 2
+ face: 14 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:53530 via: 2
+ face: 15 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:54387 via: 2
+ face: 16 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:40907 via: 2
+ face: 17 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:60591 via: 2
+ face: 18 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:35428 via: 2
+ face: 19 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:37170 via: 2
+ face: 20 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:40834 via: 2
+ face: 21 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:38861 via: 2
+ face: 22 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:43468 via: 2
+ face: 23 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:46155 via: 2
+ face: 24 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:59109 via: 2
+ face: 25 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:53315 via: 2
+ face: 26 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:44570 via: 2
+ face: 27 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:34912 via: 2
+ face: 28 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:40441 via: 2
+ face: 29 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:58742 via: 2
+ face: 30 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:39990 via: 2
+ face: 31 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:34432 via: 2
+ face: 32 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:56235 via: 2
+ face: 33 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:60440 via: 2
+ face: 34 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:42632 via: 2
+ face: 35 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:42835 via: 2
+ face: 36 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:41672 via: 2
+ face: 37 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:59774 via: 2
+ face: 38 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:45761 via: 2
+ face: 39 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:49458 via: 2
+ face: 40 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:49212 via: 2
+ face: 41 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:37766 via: 2
+ face: 42 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:54975 via: 2
+ face: 43 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:50782 via: 2
+ face: 44 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:48866 via: 2
+ face: 45 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:40425 via: 2
+ face: 46 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:55666 via: 2
+ face: 47 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:46896 via: 2
+ face: 48 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:49773 via: 2
+ face: 49 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:50859 via: 2
+ face: 50 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:54734 via: 2
+ face: 51 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:53101 via: 2
+ face: 52 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:34513 via: 2
+ face: 53 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:34061 via: 2
+ face: 54 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:48521 via: 2
+ face: 55 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:53825 via: 2
+ face: 56 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:50376 via: 2
+ face: 57 flags: 0x41012 pending: 1 activity: 2 remote: 127.0.0.1:55692 via: 2
+ face: 58 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:48610 via: 2
+ face: 59 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:34514 via: 2
+ face: 60 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:50049 via: 2
+ face: 61 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:39263 via: 2
+ face: 62 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:58383 via: 2
+ face: 63 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:41118 via: 2
+ face: 64 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:34871 via: 2
+ face: 65 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:49991 via: 2
+ face: 66 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:37069 via: 2
+ face: 67 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:60821 via: 2
+ face: 68 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:56334 via: 2
+ face: 69 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:45540 via: 2
+ face: 70 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:33739 via: 2
+ face: 71 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:49808 via: 2
+ face: 72 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:46386 via: 2
+ face: 73 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:45121 via: 2
+ face: 74 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:51801 via: 2
+ face: 75 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:44276 via: 2
+ face: 76 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:45788 via: 2
+ face: 77 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:35460 via: 2
+ face: 78 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:52829 via: 2
+ face: 79 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:41174 via: 2
+ face: 80 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:50343 via: 2
+ face: 81 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:40099 via: 2
+ face: 82 flags: 0x1016 pending: 1 activity: 4 remote: 127.0.0.1:60044 via: 2
+Face Activity Rates
+         	 Bytes/sec In/Out	 recv data/intr sent	 sent data/intr recv
+ face: 0	  2003 / 882		        2 / 2		        0 / 1
+ face: 7	     0 / 133		        0 / 1		        0 / 0
+ face: 8	    37 / 0		        0 / 0		        0 / 0
+ face: 9	    37 / 0		        0 / 0		        0 / 0
+ face: 10	    37 / 0		        0 / 0		        0 / 0
+ face: 11	    37 / 0		        0 / 0		        0 / 0
+ face: 12	    37 / 0		        0 / 0		        0 / 0
+ face: 13	    37 / 0		        0 / 0		        0 / 0
+ face: 14	    37 / 0		        0 / 0		        0 / 0
+ face: 15	    37 / 0		        0 / 0		        0 / 0
+ face: 16	    37 / 0		        0 / 0		        0 / 0
+ face: 17	    37 / 0		        0 / 0		        0 / 0
+ face: 18	    37 / 0		        0 / 0		        0 / 0
+ face: 19	    37 / 0		        0 / 0		        0 / 0
+ face: 20	    37 / 0		        0 / 0		        0 / 0
+ face: 21	    37 / 0		        0 / 0		        0 / 0
+ face: 22	    37 / 0		        0 / 0		        0 / 0
+ face: 23	    37 / 0		        0 / 0		        0 / 0
+ face: 24	    37 / 0		        0 / 0		        0 / 0
+ face: 25	    37 / 0		        0 / 0		        0 / 0
+ face: 26	    37 / 0		        0 / 0		        0 / 0
+ face: 27	    37 / 0		        0 / 0		        0 / 0
+ face: 28	    37 / 0		        0 / 0		        0 / 0
+ face: 29	    37 / 0		        0 / 0		        0 / 0
+ face: 30	    37 / 0		        0 / 0		        0 / 0
+ face: 31	    37 / 0		        0 / 0		        0 / 0
+ face: 32	    37 / 0		        0 / 0		        0 / 0
+ face: 33	    37 / 0		        0 / 0		        0 / 0
+ face: 34	    37 / 0		        0 / 0		        0 / 0
+ face: 35	    37 / 0		        0 / 0		        0 / 0
+ face: 36	    37 / 0		        0 / 0		        0 / 0
+ face: 37	    37 / 0		        0 / 0		        0 / 0
+ face: 38	    37 / 0		        0 / 0		        0 / 0
+ face: 39	    37 / 0		        0 / 0		        0 / 0
+ face: 40	    37 / 0		        0 / 0		        0 / 0
+ face: 41	    37 / 0		        0 / 0		        0 / 0
+ face: 42	    37 / 0		        0 / 0		        0 / 0
+ face: 43	    37 / 0		        0 / 0		        0 / 0
+ face: 44	    42 / 0		        0 / 0		        0 / 1
+ face: 45	    42 / 0		        0 / 0		        0 / 1
+ face: 46	    42 / 0		        0 / 0		        0 / 1
+ face: 47	    42 / 0		        0 / 0		        0 / 1
+ face: 48	    42 / 0		        0 / 0		        0 / 1
+ face: 49	    42 / 0		        0 / 0		        0 / 1
+ face: 50	    42 / 0		        0 / 0		        0 / 1
+ face: 51	    42 / 0		        0 / 0		        0 / 1
+ face: 52	    42 / 0		        0 / 0		        0 / 1
+ face: 53	    42 / 0		        0 / 0		        0 / 1
+ face: 54	    42 / 0		        0 / 0		        0 / 1
+ face: 55	    42 / 0		        0 / 0		        0 / 1
+ face: 56	    42 / 0		        0 / 0		        0 / 1
+ face: 57	    42 / 0		        0 / 0		        0 / 1
+ face: 58	    43 / 0		        0 / 0		        0 / 1
+ face: 59	    43 / 0		        0 / 0		        0 / 1
+ face: 60	    43 / 0		        0 / 0		        0 / 1
+ face: 61	    43 / 0		        0 / 0		        0 / 1
+ face: 62	    43 / 0		        0 / 0		        0 / 1
+ face: 63	    43 / 0		        0 / 0		        0 / 1
+ face: 64	    43 / 0		        0 / 0		        0 / 1
+ face: 65	    43 / 0		        0 / 0		        0 / 1
+ face: 66	    43 / 0		        0 / 0		        0 / 1
+ face: 67	    43 / 0		        0 / 0		        0 / 1
+ face: 68	    43 / 0		        0 / 0		        0 / 1
+ face: 69	    43 / 0		        0 / 0		        0 / 1
+ face: 70	    43 / 0		        0 / 0		        0 / 1
+ face: 71	    43 / 0		        0 / 0		        0 / 1
+ face: 72	    43 / 0		        0 / 0		        0 / 1
+ face: 73	    43 / 0		        0 / 0		        0 / 1
+ face: 74	    43 / 0		        0 / 0		        0 / 1
+ face: 75	    43 / 0		        0 / 0		        0 / 1
+ face: 76	    43 / 0		        0 / 0		        0 / 1
+ face: 77	    43 / 0		        0 / 0		        0 / 1
+ face: 78	    43 / 0		        0 / 0		        0 / 1
+ face: 79	    43 / 0		        0 / 0		        0 / 1
+ face: 80	    43 / 0		        0 / 0		        0 / 1
+ face: 81	    43 / 0		        0 / 0		        0 / 1
+ face: 82	    43 / 0		        0 / 0		        0 / 1
+Forwarding
+ ccnx:/%C1.M.S.localhost/%C1.M.SRV/ccnd face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/ccnx/=12E04B63EE8DAEE9B4E48DA8F5A1A4005A7EAFB2372E583C9EDBB6C93F82701E face: 0 flags: 0x17 expires: 2147483647
+ ccnx:/ccnx/ping face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood/guest face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.localhost face: 0 flags: 0x23 expires: 2147483647
+ ccnx:/unanswered/test face: 7 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.FACE face: 0 flags: 0x3 expires: 2147483647
+ ccnx:/%C1.M.S.neighborhood face: 0 flags: 0x3 expires: 2147483647
+
